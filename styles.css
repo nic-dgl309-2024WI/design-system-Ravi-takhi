@@ -1,0 +1,8 @@
+/* Colours varibles */
+:root {
+    --clr-primary: black;
+    --clr-secondary: darkgrey;
+    --clr-accent: darkgrey;
+    --clr-light: #f0f0f0; 
+    --clr-white: white;
+  }

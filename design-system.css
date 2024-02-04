@@ -1,0 +1,36 @@
+/* Mobile Navbar Styles */
+.mobile-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--clr-primary);
+}
+nav ul {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+/* Top Navbar Styles */
+.top-navbar,
+.side-navbar,
+#navbar-close {
+  display: none; /* Initially hide on smaller screens */
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 768px) {
+  .mobile-navbar {
+    display: none; /* Hide on larger screens */
+  }
+  .top-navbar,
+  .top-navbar ul,
+  .side-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

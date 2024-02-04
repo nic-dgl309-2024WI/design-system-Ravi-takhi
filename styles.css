@@ -8,6 +8,24 @@
   --secondary-bg-color:#ebeee3;
   --secondary-text-color: #121212; 
   }
+  /* Text Color Utility Classes */
+.text-primary {
+  color: var(--primary-text-color);
+}
+.bg-primary {
+  color: var(--primary-bg-color);
+}
+.text-accent {
+  color: var(--accent-color);
+}
+.text-secondary {
+  color: var(--secondary-text-color);
+}
+.bg-secondary {
+  background-color: var(--secondary-bg-color);
+}
+
+
 
 /* CSS Reset */
 html {

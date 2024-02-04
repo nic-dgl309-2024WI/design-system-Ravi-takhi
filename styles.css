@@ -1,10 +1,12 @@
 /* Colours varibles */
 :root {
-    --clr-primary: black;
-    --clr-secondary: darkgrey;
-    --clr-accent: darkgrey;
-    --clr-light: #f0f0f0; 
-    --clr-white: white;
+  /* Primary Colors */
+  --primary-text-color: #212529;
+  --primary-bg-color:#f6f7f2;
+  --accent-color:#5E7826;
+  /* Secondary Colors */
+  --secondary-bg-color:#ebeee3;
+  --secondary-text-color: #121212; 
   }
 
 /* CSS Reset */

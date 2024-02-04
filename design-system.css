@@ -13,6 +13,14 @@ nav ul {
   list-style-type: none;
   margin: 10px 0;
 }
+nav a:hover {
+  color: var(--clr-accent); /* Change color on hover */
+}
+
+nav a.active {
+  font-weight: bold;
+  color: var(--clr-accent); /* Change color for active state */
+}
 
 /* Top Navbar Styles */
 .top-navbar,

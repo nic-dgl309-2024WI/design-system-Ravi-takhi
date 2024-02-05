@@ -14,19 +14,52 @@ nav ul {
   margin: 10px 0;
 }
 nav a:hover {
-  color: var(--clr-accent); /* Change color on hover */
+  color: var(--accent-color); /* Change color on hover */
 }
 
-nav a.active {
-  font-weight: bold;
-  color: var(--clr-accent); /* Change color for active state */
-}
-
-/* Top Navbar Styles */
 .top-navbar,
 .side-navbar,
 #navbar-close {
   display: none; /* Initially hide on smaller screens */
+}
+
+.container
+{
+  display: flex;
+}
+
+.swatch-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.swatch {
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #ccc;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.swatch__color-part {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swatch__info-part {
+  width: 100%;
+  height: 70%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 /* Media Query for Larger Screens */
@@ -34,6 +67,7 @@ nav a.active {
   .mobile-navbar {
     display: none; /* Hide on larger screens */
   }
+
   .top-navbar,
   .top-navbar ul,
   .side-navbar {

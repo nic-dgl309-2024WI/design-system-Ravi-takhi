@@ -1,28 +1,45 @@
 /* Colours varibles */
 :root {
+
   /* Primary Colors */
-  --primary-text-color: #212529;
+
+  --primary-text-color: #100f0f;
   --primary-bg-color:#f6f7f2;
-  --accent-color:#5E7826;
+  --accent-color:#4F691C;
+
   /* Secondary Colors */
-  --secondary-bg-color:#ebeee3;
-  --secondary-text-color: #121212; 
+
+  --secondary-bg-color:#dce6c1;
+  --secondary-text-color:#944D1E; 
   }
+  
   /* Text Color Utility Classes */
 .text-primary {
   color: var(--primary-text-color);
 }
 .bg-primary {
-  color: var(--primary-bg-color);
+  background-color: var(--primary-bg-color);
 }
 .text-accent {
   color: var(--accent-color);
+}
+.text-active {
+  color: var(--accent-color); 
 }
 .text-secondary {
   color: var(--secondary-text-color);
 }
 .bg-secondary {
   background-color: var(--secondary-bg-color);
+}
+.text-primary-bg {
+  background-color: var(--primary-text-color);
+}
+.text-secondary-bg {
+  background-color: var(--secondary-text-color);
+}
+.text-accent-bg {
+  background-color: var(--accent-color);
 }
 
 
@@ -48,7 +65,6 @@ figure,
 picture {
   margin: 0;
 }
-
 /* Padding Reset */
 ul,
 ol {

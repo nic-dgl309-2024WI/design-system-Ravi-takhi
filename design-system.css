@@ -1,39 +1,59 @@
-/* Mobile Navbar Styles */
-.mobile-navbar {
+/*  ===>> Navbar Styles START <<=== */
+
+.nav 
+{
   display: flex;
   justify-content: space-between;
   align-items: center;
+ 
+}
+
+.nav--mobile
+{
   padding: 0px 5px;
 }
-nav a {
-  text-decoration: none;
-  color: var(--clr-primary);
-}
-nav ul {
+
+.nav__list
+{
   list-style-type: none;
   margin: 10px 0;
 }
-nav a:hover {
-  color: var(--accent-color); /* Change color on hover */
+
+.nav__link
+{
+  text-decoration: none;
+  color: var(--clr-primary);
 }
 
-.top-navbar,
-.side-navbar,
-#navbar-close {
+.nav__item--active {
+  color: var(--secondary-text-color);
+}
+
+.nav__link:hover {
+  color: var(--accent-color);
+}
+
+.nav--top,
+.nav--side,
+#sidebarHide {
   display: none; /* Initially hide on smaller screens */
 }
 
-.container
+/*  ===>> Navbar Styles END <<=== */
+
+/*  ===>> Swatches Styles START <<=== */
+
+.content-layout
 {
   display: flex;
 }
 
-.swatch-box {
+.color-swatches {
   display: flex;
   flex-wrap: wrap;
 }
 
-.swatch {
+.color-swatches__swatch {
   width: 200px;
   height: 250px;
   margin: 10px;
@@ -42,12 +62,12 @@ nav a:hover {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid #ccc;
+  border: 2px solid none;
   overflow: hidden;
   border-radius: 10px;
 }
 
-.swatch__color-part {
+.color-swatches__color-part {
   width: 100%;
   height: 30%;
   display: flex;
@@ -55,24 +75,29 @@ nav a:hover {
   align-items: center;
 }
 
-.swatch__info-part {
+.color-swatches__info-part {
   width: 100%;
   height: 70%;
   padding: 10px;
   box-sizing: border-box;
 }
 
-/* Media Query for Larger Screens */
+/*  ===>> Swatches Styles END <<=== */
+
+
+/*  ===>> Media query for DESKTOP <<=== */
 @media (min-width: 768px) {
-  .mobile-navbar {
+
+  /*  ===>> Navbar Styles START <<=== */
+
+  .nav--mobile {
     display: none; /* Hide on larger screens */
   }
 
-  .top-navbar,
-  .top-navbar ul,
-  .side-navbar {
+  .nav--top,.nav--side, .nav--top .nav__list
+  {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
   }
+
+  /*  ===>> Navbar Styles END <<=== */
 }

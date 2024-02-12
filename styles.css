@@ -16,6 +16,52 @@
 
   --heading-font: 'Crimson Pro', serif;
   --body-font: 'Merriweather', serif;
+
+  /* Font size */
+
+  --heading-size-xl: 36px;
+  --heading-size-large: 24px;
+  --heading-size-medium: 20px;
+  --heading-size-small: 18px;
+  --heading-size-xs: 16px;
+
+  --font-size-regular: 16px;
+  --font-size-large: 18px;
+  --font-size-medium: 14px;
+  --font-size-small: 12px;
+  --font-size-xs: 10px;
+
+  /* Font weight */
+
+  --heading-weight-light: 300;
+  --heading-weight-normal: 400; 
+  --heading-weight-medium: 500;
+  --heading-weight-bold: 700;
+
+  --font-weight-thin: 100;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+ /* Letter spacing */
+ 
+  --letter-spacing-1: 1px;
+  --letter-spacing-2: 2px; 
+  --letter-spacing-3: 3px; 
+
+  /* Line height */
+
+  --heading-line-height-1: 28px;
+  --heading-line-height-2: 30.5px; 
+  --heading-line-height-3: 33px; 
+
+  --body-line-height-1: 24px;
+  --body-line-height-2: 25.5px; 
+  --body-line-height-3: 27px; 
+  }
+
   
   /* Text Color Utility Classes */
 .text-primary {

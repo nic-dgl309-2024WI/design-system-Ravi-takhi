@@ -11,7 +11,11 @@
 
   --secondary-bg-color:#dce6c1;
   --secondary-text-color:#944D1E; 
-  }
+
+  /* Font-families */
+
+  --heading-font: 'Crimson Pro', serif;
+  --body-font: 'Merriweather', serif;
   
   /* Text Color Utility Classes */
 .text-primary {

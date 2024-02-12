@@ -29,7 +29,6 @@
   --font-size-large: 18px;
   --font-size-medium: 14px;
   --font-size-small: 12px;
-  --font-size-xs: 10px;
 
   /* Font weight */
 
@@ -38,7 +37,7 @@
   --heading-weight-medium: 500;
   --heading-weight-bold: 700;
 
-  --font-weight-thin: 100;
+  --font-weight-thin: 100px;
   --font-weight-light: 300;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
@@ -95,6 +94,13 @@
 
 /*  ===>> Typography <<=== */
 
+.f-f--heading {
+  font-family: var(--heading-font);
+}
+
+.f-f--body {
+  font-family: var(--body-font);
+}
 
 /* Utility Classes for Heading Sizes */
 .heading-xl {
@@ -125,9 +131,6 @@
 }
 .fs-small {
   font-size: var(--font-size-small);
-}
-.fs-xs {
-  font-size: var(--font-size-xs);
 }
 
 

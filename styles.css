@@ -93,6 +93,114 @@
 }
 
 
+/*  ===>> Typography <<=== */
+
+
+/* Utility Classes for Heading Sizes */
+.heading-xl {
+  font-size: var(--heading-size-xl);
+}
+.heading-large {
+  font-size: var(--heading-size-large);
+}
+.heading-medium {
+  font-size: var(--heading-size-medium);
+}
+.heading-small {
+  font-size: var(--heading-size-small);
+}
+.heading-xs {
+  font-size: var(--heading-size-xs);
+}
+
+/* Utility Classes for Body Text Sizes */
+.fs-regular {
+  font-size: var(--font-size-regular);
+}
+.fs-large {
+  font-size: var(--font-size-large);
+}
+.fs-medium {
+  font-size: var(--font-size-medium);
+}
+.fs-small {
+  font-size: var(--font-size-small);
+}
+.fs-xs {
+  font-size: var(--font-size-xs);
+}
+
+
+/* Utility Classes for Text weight */
+
+
+.hw-light {
+  font-weight: var(--heading-weight-light);
+}
+.hw-regular {
+  font-weight: var(--heading-weight-regular);
+}
+.hw-medium {
+  font-weight: var(--heading-weight-medium);
+}
+.hw-bold {
+  font-weight: var(--heading-weight-bold);
+}
+
+
+.fw-thin {
+  font-weight: var(--font-weight-thin);
+}
+.fw-light {
+  font-weight: var(--font-weight-light);
+}
+.fw-regular {
+  font-weight: var(--font-weight-regular);
+}
+.fw-medium {
+  font-weight: var(--font-weight-medium);
+}
+.fw-bold {
+  font-weight: var(--font-weight-bold);
+}
+.fw-black {
+  font-weight: var(--font-weight-black);
+}
+
+/* Utility Classes for letter spacing */
+
+.letter-spacing-1 {
+  letter-spacing: var(--letter-spacing-1);
+}
+.letter-spacing-2 {
+  letter-spacing: var(--letter-spacing-2);
+}
+.letter-spacing-3 {
+  letter-spacing: var(--letter-spacing-3);
+}
+
+
+/* Utility Classes for Line Height */
+
+.line-height-body-1 {
+  line-height: var(--body-line-height-1);
+}
+.line-height-body-2 {
+  line-height: var(--body-line-height-2);
+}
+.line-height-body-3 {
+  line-height: var(--body-line-height-3);
+}
+
+.line-height-heading-1 {
+  line-height: var(--heading-line-height-1);
+}
+.line-height-heading-2 {
+  line-height: var(--heading-line-height-2);
+}
+.line-height-heading-3 {
+  line-height: var(--heading-line-height-3);
+}
 
 /* CSS Reset */
 html {

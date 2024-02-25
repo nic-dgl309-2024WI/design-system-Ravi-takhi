@@ -10,7 +10,7 @@
   --secondary-text-color: #944D1E; 
 
   /* Font-families */
-  --heading-font: 'Crimson Pro', serif;
+  --heading-font: 'Montserrat', serif;
   --body-font: 'Merriweather', serif;
 
   /* Font size */
@@ -28,7 +28,7 @@
   /* Font weight */
   --heading-weight-light: 300;
   --heading-weight-normal: 400; 
-  --heading-weight-medium: 500;
+  --heading-weight-medium: 600;
   --heading-weight-bold: 700;
 
   --font-weight-thin: 100px;
@@ -113,27 +113,27 @@
 
 /* Utility Classes for Heading Sizes */
 /* Extra Large Heading */
-.heading-xl {
+.hs-xl {
   font-size: var(--heading-size-xl);
 }
 
 /* Large Heading */
-.heading-large {
+.hs-large {
   font-size: var(--heading-size-large);
 }
 
 /* Medium Heading */
-.heading-medium {
+.hs-medium {
   font-size: var(--heading-size-medium);
 }
 
 /* Small Heading */
-.heading-small {
+.hs-small {
   font-size: var(--heading-size-small);
 }
 
 /* Extra Small Heading */
-.heading-xs {
+.hs-xs {
   font-size: var(--heading-size-xs);
 }
 

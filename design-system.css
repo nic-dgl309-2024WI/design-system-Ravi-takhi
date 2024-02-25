@@ -1,58 +1,62 @@
 /*  ===>> Navbar Styles START <<=== */
 
-.nav 
-{
+/* Navbar container */
+.nav {
   display: flex;
   justify-content: space-between;
- 
 }
 
-.nav--mobile
-{
+/* Styles for mobile navigation */
+.nav--mobile {
   padding: 0px 5px;
 }
 
-.nav__list
-{
+/* Styles for navigation list */
+.nav__list {
   list-style-type: none;
   margin: 10px 0;
 }
 
-.nav__link
-{
+/* Styles for navigation links */
+.nav__link {
   text-decoration: none;
   color: var(--clr-primary);
 }
 
+/* Styles for active navigation item */
 .nav__item--active {
   color: var(--secondary-text-color);
 }
 
+/* Hover styles for navigation links */
 .nav__link:hover {
   color: var(--accent-color);
 }
 
+/* Hide certain elements on smaller screens */
 .nav--top,
 .nav--side,
 #sidebarHide {
-  display: none; /* Initially hide on smaller screens */
+  display: none;
 }
 
 /*  ===>> Navbar Styles END <<=== */
 
 /*  ===>> Swatches Styles START <<=== */
 
-.content-layout
-{
+/* Container for content layout */
+.content-layout {
   display: flex;
   text-align: start;
 }
 
+/* Container for color swatches */
 .color-swatches {
   display: flex;
   flex-wrap: wrap;
 }
 
+/* Individual color swatch */
 .color-swatches__swatch {
   width: 200px;
   height: 250px;
@@ -67,6 +71,7 @@
   border-radius: 10px;
 }
 
+/* Color part of the swatch */
 .color-swatches__color-part {
   width: 100%;
   height: 30%;
@@ -75,6 +80,7 @@
   align-items: center;
 }
 
+/* Information part of the swatch */
 .color-swatches__info-part {
   width: 100%;
   height: 70%;
@@ -90,12 +96,13 @@
 
   /*  ===>> Navbar Styles START <<=== */
 
-  .nav--mobile,#about-me-list {
-    display: none; /* Hide on larger screens */
+  /* Hide certain elements on larger screens */
+  .nav--mobile, #about-me-list {
+    display: none;
   }
 
-  .nav--top,.nav--side, .nav--top .nav__list
-  {
+  /* Display certain elements on larger screens */
+  .nav--top, .nav--side, .nav--top .nav__list {
     display: flex;
   }
 

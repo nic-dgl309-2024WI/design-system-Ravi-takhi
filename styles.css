@@ -1,24 +1,20 @@
-/* Colours varibles */
+/* Colours variables */
 :root {
-
   /* Primary Colors */
-
   --primary-text-color: #100f0f;
-  --primary-bg-color:#f6f7f2;
-  --accent-color:#4F691C;
+  --primary-bg-color: #f6f7f2;
+  --accent-color: #4F691C;
 
   /* Secondary Colors */
-
   --secondary-bg-color:#dce6c1;
-  --secondary-text-color:#944D1E; 
+  --secondary-bg-color: #dce6c1;
+  --secondary-text-color: #944D1E; 
 
   /* Font-families */
-
   --heading-font: 'Crimson Pro', serif;
   --body-font: 'Merriweather', serif;
 
   /* Font size */
-
   --heading-size-xl: 36px;
   --heading-size-large: 24px;
   --heading-size-medium: 20px;
@@ -31,7 +27,6 @@
   --font-size-small: 12px;
 
   /* Font weight */
-
   --heading-weight-light: 300;
   --heading-weight-normal: 400; 
   --heading-weight-medium: 500;
@@ -45,13 +40,11 @@
   --font-weight-black: 900;
 
  /* Letter spacing */
- 
   --letter-spacing-1: 1px;
   --letter-spacing-2: 2px; 
   --letter-spacing-3: 3px; 
 
   /* Line height */
-
   --heading-line-height-1: 28px;
   --heading-line-height-2: 30.5px; 
   --heading-line-height-3: 33px; 
@@ -59,148 +52,210 @@
   --body-line-height-1: 24px;
   --body-line-height-2: 25.5px; 
   --body-line-height-3: 27px; 
-  }
+}
 
-  
-  /* Text Color Utility Classes */
+/* Text Color Utility Classes */
+/* Primary Text Color */
 .text-primary {
   color: var(--primary-text-color);
 }
+
+/* Primary Background Color */
 .bg-primary {
   background-color: var(--primary-bg-color);
 }
+
+/* Accent Color */
 .text-accent {
   color: var(--accent-color);
 }
+
+/* Active Text Color */
 .text-active {
   color: var(--accent-color); 
 }
+
+/* Secondary Text Color */
 .text-secondary {
   color: var(--secondary-text-color);
 }
+
+/* Secondary Background Color */
 .bg-secondary {
   background-color: var(--secondary-bg-color);
 }
+
+/* Primary Text Color as Background */
 .text-primary-bg {
   background-color: var(--primary-text-color);
 }
+
+/* Secondary Text Color as Background */
 .text-secondary-bg {
   background-color: var(--secondary-text-color);
 }
+
+/* Accent Color as Background */
 .text-accent-bg {
   background-color: var(--accent-color);
 }
 
 
-/*  ===>> Typography <<=== */
-
+/* Typography */
+/* Heading Font Family */
 .f-f--heading {
   font-family: var(--heading-font);
 }
 
+/* Body Font Family */
 .f-f--body {
   font-family: var(--body-font);
 }
 
 /* Utility Classes for Heading Sizes */
+/* Extra Large Heading */
 .heading-xl {
   font-size: var(--heading-size-xl);
 }
+
+/* Large Heading */
 .heading-large {
   font-size: var(--heading-size-large);
 }
+
+/* Medium Heading */
 .heading-medium {
   font-size: var(--heading-size-medium);
 }
+
+/* Small Heading */
 .heading-small {
   font-size: var(--heading-size-small);
 }
+
+/* Extra Small Heading */
 .heading-xs {
   font-size: var(--heading-size-xs);
 }
 
 /* Utility Classes for Body Text Sizes */
+/* Regular Body Text Size */
 .fs-regular {
   font-size: var(--font-size-regular);
 }
+
+/* Large Body Text Size */
 .fs-large {
   font-size: var(--font-size-large);
 }
+
+/* Medium Body Text Size */
 .fs-medium {
   font-size: var(--font-size-medium);
 }
+
+/* Small Body Text Size */
 .fs-small {
   font-size: var(--font-size-small);
 }
 
 
-/* Utility Classes for Text weight */
-
-
+/* Utility Classes for Text Weight */
+/* Heading Text Weight - Light */
 .hw-light {
   font-weight: var(--heading-weight-light);
 }
+
+/* Heading Text Weight - Regular */
 .hw-regular {
   font-weight: var(--heading-weight-regular);
 }
+
+/* Heading Text Weight - Medium */
 .hw-medium {
   font-weight: var(--heading-weight-medium);
 }
+
+/* Heading Text Weight - Bold */
 .hw-bold {
   font-weight: var(--heading-weight-bold);
 }
 
 
+/* Font Weight - Thin */
 .fw-thin {
   font-weight: var(--font-weight-thin);
 }
+
+/* Font Weight - Light */
 .fw-light {
   font-weight: var(--font-weight-light);
 }
+
+/* Font Weight - Regular */
 .fw-regular {
   font-weight: var(--font-weight-regular);
 }
+
+/* Font Weight - Medium */
 .fw-medium {
   font-weight: var(--font-weight-medium);
 }
+
+/* Font Weight - Bold */
 .fw-bold {
   font-weight: var(--font-weight-bold);
 }
+
+/* Font Weight - Black */
 .fw-black {
   font-weight: var(--font-weight-black);
 }
 
-/* Utility Classes for letter spacing */
-
+/* Utility Classes for Letter Spacing */
+/* Letter Spacing 1 */
 .letter-spacing-1 {
   letter-spacing: var(--letter-spacing-1);
 }
+
+/* Letter Spacing 2 */
 .letter-spacing-2 {
   letter-spacing: var(--letter-spacing-2);
 }
+
+/* Letter Spacing 3 */
 .letter-spacing-3 {
   letter-spacing: var(--letter-spacing-3);
 }
 
 
 /* Utility Classes for Line Height */
-
+/* Body Line Height 1 */
 .line-height-body-1 {
   line-height: var(--body-line-height-1);
 }
+
+/* Body Line Height 2 */
 .line-height-body-2 {
   line-height: var(--body-line-height-2);
 }
+
+/* Body Line Height 3 */
 .line-height-body-3 {
   line-height: var(--body-line-height-3);
 }
 
+/* Heading Line Height 1 */
 .line-height-heading-1 {
   line-height: var(--heading-line-height-1);
 }
+
+/* Heading Line Height 2 */
 .line-height-heading-2 {
   line-height: var(--heading-line-height-2);
 }
+
+/* Heading Line Height 3 */
 .line-height-heading-3 {
   line-height: var(--heading-line-height-3);
 }
@@ -226,6 +281,7 @@ figure,
 picture {
   margin: 0;
 }
+
 /* Padding Reset */
 ul,
 ol {

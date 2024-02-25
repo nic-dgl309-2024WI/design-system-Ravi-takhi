@@ -90,7 +90,7 @@
 
   /*  ===>> Navbar Styles START <<=== */
 
-  .nav--mobile {
+  .nav--mobile,#about-me-list {
     display: none; /* Hide on larger screens */
   }
 

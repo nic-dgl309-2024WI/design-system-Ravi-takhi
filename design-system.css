@@ -1,41 +1,41 @@
 /*  ===>> Navbar Styles START <<=== */
 
 /* Navbar container */
-.nav {
+.on-nav {
   display: flex;
   justify-content: space-between;
 }
 
 /* Styles for mobile navigation */
-.nav--mobile {
+.on-nav--mobile {
   padding: 0px 5px;
 }
 
 /* Styles for navigation list */
-.nav__list {
+.on-nav__list {
   list-style-type: none;
   margin: 10px 0;
 }
 
 /* Styles for navigation links */
-.nav__link {
+.on-nav__link {
   text-decoration: none;
   color: var(--clr-primary);
 }
 
 /* Styles for active navigation item */
-.nav__item--active {
+.on-nav__item--active {
   color: var(--secondary-text-color);
 }
 
 /* Hover styles for navigation links */
-.nav__link:hover {
+.on-nav__link:hover {
   color: var(--accent-color);
 }
 
 /* Hide certain elements on smaller screens */
-.nav--top,
-.nav--side,
+.on-nav--top,
+.on-nav--side,
 #sidebarHide {
   display: none;
 }
@@ -45,20 +45,20 @@
 /*  ===>> Swatches Styles START <<=== */
 
 /* Container for content layout */
-.content-layout {
+.on-content-layout {
   display: flex;
   text-align: start;
 }
 
 /* Container for color swatches */
-.color-swatches {
+.on-color-swatches {
   display: flex;
   flex-wrap: wrap;
 }
 
 /* Individual color swatch */
-.color-swatches__swatch {
-  width: 200px;
+.on-color-swatches__swatch {
+  width: 400px;
   height: 250px;
   margin: 10px;
   text-align: left;
@@ -72,7 +72,7 @@
 }
 
 /* Color part of the swatch */
-.color-swatches__color-part {
+.on-color-swatches__color-part {
   width: 100%;
   height: 30%;
   display: flex;
@@ -81,7 +81,7 @@
 }
 
 /* Information part of the swatch */
-.color-swatches__info-part {
+.on-color-swatches__info-part {
   width: 100%;
   height: 70%;
   padding: 10px;
@@ -97,12 +97,12 @@
   /*  ===>> Navbar Styles START <<=== */
 
   /* Hide certain elements on larger screens */
-  .nav--mobile, #about-me-list {
+  .on-nav--mobile, #about-me-list {
     display: none;
   }
 
   /* Display certain elements on larger screens */
-  .nav--top, .nav--side, .nav--top .nav__list {
+  .on-nav--top, .on-nav--side, .on-nav--top .on-nav__list {
     display: flex;
   }
 

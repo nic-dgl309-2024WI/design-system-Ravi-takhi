@@ -55,207 +55,207 @@
 
 /* Text Color Utility Classes */
 /* Primary Text Color */
-.text-primary {
+.on-text-primary {
   color: var(--primary-text-color);
 }
 
 /* Primary Background Color */
-.bg-primary {
+.on-bg-primary {
   background-color: var(--primary-bg-color);
 }
 
 /* Accent Color */
-.text-accent {
+.on-text-accent {
   color: var(--accent-color);
 }
 
 /* Active Text Color */
-.text-active {
+.on-text-active {
   color: var(--accent-color); 
 }
 
 /* Secondary Text Color */
-.text-secondary {
+.on-text-secondary {
   color: var(--secondary-text-color);
 }
 
 /* Secondary Background Color */
-.bg-secondary {
+.on-bg-secondary {
   background-color: var(--secondary-bg-color);
 }
 
 /* Primary Text Color as Background */
-.text-primary-bg {
+.on-text-primary-bg {
   background-color: var(--primary-text-color);
 }
 
 /* Secondary Text Color as Background */
-.text-secondary-bg {
+.on-text-secondary-bg {
   background-color: var(--secondary-text-color);
 }
 
 /* Accent Color as Background */
-.text-accent-bg {
+.on-text-accent-bg {
   background-color: var(--accent-color);
 }
 
 
 /* Typography */
 /* Heading Font Family */
-.f-f--heading {
+.on-f-f--heading {
   font-family: var(--heading-font);
 }
 
 /* Body Font Family */
-.f-f--body {
+.on-f-f--body {
   font-family: var(--body-font);
 }
 
 /* Utility Classes for Heading Sizes */
 /* Extra Large Heading */
-.hs-xl {
+.on-hs-xl {
   font-size: var(--heading-size-xl);
 }
 
 /* Large Heading */
-.hs-large {
+.on-hs-large {
   font-size: var(--heading-size-large);
 }
 
 /* Medium Heading */
-.hs-medium {
+.on-hs-medium {
   font-size: var(--heading-size-medium);
 }
 
 /* Small Heading */
-.hs-small {
+.on-hs-small {
   font-size: var(--heading-size-small);
 }
 
 /* Extra Small Heading */
-.hs-xs {
+.on-hs-xs {
   font-size: var(--heading-size-xs);
 }
 
 /* Utility Classes for Body Text Sizes */
 /* Regular Body Text Size */
-.fs-regular {
+.on-fs-regular {
   font-size: var(--font-size-regular);
 }
 
 /* Large Body Text Size */
-.fs-large {
+.on-fs-large {
   font-size: var(--font-size-large);
 }
 
 /* Medium Body Text Size */
-.fs-medium {
+.on-fs-medium {
   font-size: var(--font-size-medium);
 }
 
 /* Small Body Text Size */
-.fs-small {
+.on-fs-small {
   font-size: var(--font-size-small);
 }
 
 
 /* Utility Classes for Text Weight */
 /* Heading Text Weight - Light */
-.hw-light {
+.on-hw-light {
   font-weight: var(--heading-weight-light);
 }
 
 /* Heading Text Weight - Regular */
-.hw-regular {
+.on-hw-regular {
   font-weight: var(--heading-weight-regular);
 }
 
 /* Heading Text Weight - Medium */
-.hw-medium {
+.on-hw-medium {
   font-weight: var(--heading-weight-medium);
 }
 
 /* Heading Text Weight - Bold */
-.hw-bold {
+.on-hw-bold {
   font-weight: var(--heading-weight-bold);
 }
 
 
 /* Font Weight - Thin */
-.fw-thin {
+.on-fw-thin {
   font-weight: var(--font-weight-thin);
 }
 
 /* Font Weight - Light */
-.fw-light {
+.on-fw-light {
   font-weight: var(--font-weight-light);
 }
 
 /* Font Weight - Regular */
-.fw-regular {
+.on-fw-regular {
   font-weight: var(--font-weight-regular);
 }
 
 /* Font Weight - Medium */
-.fw-medium {
+.on-fw-medium {
   font-weight: var(--font-weight-medium);
 }
 
 /* Font Weight - Bold */
-.fw-bold {
+.on-fw-bold {
   font-weight: var(--font-weight-bold);
 }
 
 /* Font Weight - Black */
-.fw-black {
+.on-fw-black {
   font-weight: var(--font-weight-black);
 }
 
 /* Utility Classes for Letter Spacing */
 /* Letter Spacing 1 */
-.letter-spacing-1 {
+.on-letter-spacing-1 {
   letter-spacing: var(--letter-spacing-1);
 }
 
 /* Letter Spacing 2 */
-.letter-spacing-2 {
+.on-letter-spacing-2 {
   letter-spacing: var(--letter-spacing-2);
 }
 
 /* Letter Spacing 3 */
-.letter-spacing-3 {
+.on-letter-spacing-3 {
   letter-spacing: var(--letter-spacing-3);
 }
 
 
 /* Utility Classes for Line Height */
 /* Body Line Height 1 */
-.line-height-body-1 {
+.on-line-height-body-1 {
   line-height: var(--body-line-height-1);
 }
 
 /* Body Line Height 2 */
-.line-height-body-2 {
+.on-line-height-body-2 {
   line-height: var(--body-line-height-2);
 }
 
 /* Body Line Height 3 */
-.line-height-body-3 {
+.on-line-height-body-3 {
   line-height: var(--body-line-height-3);
 }
 
 /* Heading Line Height 1 */
-.line-height-heading-1 {
+.on-line-height-heading-1 {
   line-height: var(--heading-line-height-1);
 }
 
 /* Heading Line Height 2 */
-.line-height-heading-2 {
+.on-line-height-heading-2 {
   line-height: var(--heading-line-height-2);
 }
 
 /* Heading Line Height 3 */
-.line-height-heading-3 {
+.on-line-height-heading-3 {
   line-height: var(--heading-line-height-3);
 }
 

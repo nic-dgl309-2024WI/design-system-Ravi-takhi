@@ -51,6 +51,11 @@
   --body-line-height-1: 24px;
   --body-line-height-2: 25.5px; 
   --body-line-height-3: 27px; 
+
+  /* Spacing */
+  --spacing-1: 1rem; /* 16px */
+  --spacing-1-25: 1.25rem; /* 20px */
+  --spacing-1-5: 1.5rem; /* 24px */
 }
 
 /* Text Color Utility Classes */

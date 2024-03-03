@@ -264,6 +264,106 @@
   line-height: var(--heading-line-height-3);
 }
 
+/* Margins */
+
+/* Apply margin to all four sides */
+.l-m {
+  margin: var(--spacing-1);
+}
+
+/* Apply margin to the top */
+.l-mt-1 {
+  margin-top: var(--spacing-1);
+}
+
+/* Apply margin to the right */
+.l-mr-1 {
+  margin-right: var(--spacing-1);
+}
+
+/* Apply margin to the bottom */
+.l-mb-1 {
+  margin-bottom: var(--spacing-1);
+}
+
+/* Apply margin to the left */
+.l-ml-1 {
+  margin-left: var(--spacing-1);
+}
+
+/* Apply margin to the right and left */
+.l-mx-1 {
+  margin-right: var(--spacing-1);
+  margin-left: var(--spacing-1);
+}
+
+/* Apply margin to the top and bottom */
+.l-my-1 {
+  margin-top: var(--spacing-1);
+  margin-bottom: var(--spacing-1);
+}
+
+/* Padding */
+
+/* Apply padding to all four sides */
+.l-p {
+  padding: var(--spacing-1);
+}
+
+/* Apply padding to the top */
+.l-pt-1 {
+  padding-top: var(--spacing-1);
+}
+
+/* Apply padding to the right */
+.l-pr-1 {
+  padding-right: var(--spacing-1);
+}
+
+/* Apply padding to the bottom */
+.l-pb-1 {
+  padding-bottom: var(--spacing-1);
+}
+
+/* Apply padding to the left */
+.l-pl-1 {
+  padding-left: var(--spacing-1);
+}
+
+/* Apply padding to the right and left */
+.l-px-1 {
+  padding-right: var(--spacing-1);
+  padding-left: var(--spacing-1);
+}
+
+/* Apply padding to the top and bottom */
+.l-py-1 {
+  padding-top: var(--spacing-1);
+  padding-bottom: var(--spacing-1);
+}
+
+/* Additional Spacing Classes */
+
+/* Apply margin of 1.25rem (20px) to all four sides */
+.l-m-1-25 {
+  margin: var(--spacing-1-25);
+}
+
+/* Apply padding of 1.25rem (20px) to all four sides */
+.l-p-1-25 {
+  padding: var(--spacing-1-25);
+}
+
+/* Apply margin of 1.5rem (24px) to all four sides */
+.l-m-1-5 {
+  margin: var(--spacing-1-5);
+}
+
+/* Apply padding of 1.5rem (24px) to all four sides */
+.l-p-1-5 {
+  padding: var(--spacing-1-5);
+}
+
 /* CSS Reset */
 html {
   box-sizing: border-box;

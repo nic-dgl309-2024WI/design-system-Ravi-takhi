@@ -58,7 +58,7 @@
 
 /* Individual color swatch */
 .on-color-swatches__swatch {
-  width: 400px;
+  width: auto;
   height: 250px;
   margin: 10px;
   text-align: left;
@@ -88,6 +88,11 @@
   box-sizing: border-box;
 }
 
+/* Hide hex code and class name  */
+.on-color-swatches__info-part tr:nth-child(1),
+  .on-color-swatches__info-part tr:nth-child(2) {
+    display: none;
+  }
 /*  ===>> Swatches Styles END <<=== */
 
 
@@ -107,4 +112,15 @@
   }
 
   /*  ===>> Navbar Styles END <<=== */
+
+/*  ===>> Color Styles START <<=== */
+
+    /* Show hex code and class name  */
+  .on-color-swatches__info-part tr:nth-child(1),
+  .on-color-swatches__info-part tr:nth-child(2) {
+    display: table-row;
+  }
+  .on-color-swatches__swatch {
+    width: 400px;
+  }
 }

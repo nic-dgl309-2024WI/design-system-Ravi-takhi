@@ -453,8 +453,7 @@
 }
 
 /* Grid Layout Classes */
-
-/* Apply display: grid */
+/* Apply display: grid; */
 .l-grid {
   display: grid;
 }
@@ -503,6 +502,21 @@
   grid-template-columns: var(--grid-cols);
   grid-template-rows: var(--grid-rows);
   gap: var(--grid-gap);
+}
+
+/* Container Class */
+.container {
+  width: 100%; /* Full width by default */
+  max-width: 100%; /* No max-width on mobile */
+  margin: 0 auto;
+}
+
+/* Media query for desktop */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1000px; /* Constrained max-width for desktop */
+    width: 80%; /* Adjusted width for desktop */
+  }
 }
 
 

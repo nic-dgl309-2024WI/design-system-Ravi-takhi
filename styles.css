@@ -456,6 +456,11 @@
   align-items: stretch;
 }
 
+.l-gap
+{
+  gap: 10px;
+}
+
 /* Grid Layout Classes */
 /* Apply display: grid; */
 .l-grid {
@@ -551,3 +556,5 @@ ul,
 ol {
   padding: 0;
 }
+
+

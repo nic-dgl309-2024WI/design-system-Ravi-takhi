@@ -115,6 +115,25 @@
   }
 /*  ===>> Swatches Styles END <<=== */
 
+/*  ===>> Spacing Styles START <<=== */
+
+.l-grid__item {
+  border: 1px solid var(--secondary-bg-color);
+  padding: 10px;
+  text-align: center;
+}
+
+.l-grid__example-box {
+  width: 200px;
+  height: 150px;
+  background-color: var(--secondary-bg-color);
+  border: 1px solid var(--accent-color);
+  display: inline-block;
+}
+
+/*  ===>> Spacing Styles END <<=== */
+
+
 
 /*  ===>> Media query for DESKTOP <<=== */
 @media (min-width: 768px) {

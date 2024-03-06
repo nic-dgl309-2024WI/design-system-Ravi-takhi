@@ -13,30 +13,29 @@
   </head>
   <body>
     <header>
-
+      <!-- Top Navbar -->
+      <nav class="on-nav on-nav--top on-f-f--body on-fs-regular on-fw-bold on-container on-bg-primary">
+        <a class="on-nav__link on-nav__item--active" href="index.html">Design System</a>
+        <ul class="on-nav__list">
+          <li><a class="on-nav__link" href="about-me.html">About Me</a></li>
+          <li><a class="on-nav__link" href="#">Demo Site</a></li>
+        </ul>
+      </nav>
+      <!-- Mobile Navbar -->
+      <nav class="on-nav on-nav--mobile on-f-f--body on-fs-regular on-fw-bold">
+        <a class="on-nav__link on-nav__item--active" href="index.html">Design System</a>
+        <ul class="on-nav__list">
+            <li>
+              <span id="sidebarShow" onclick="toggleNavbar(true)">
+                <i class="fa fa-bars"></i>
+              </span>
+              <span id="sidebarHide" onclick="toggleNavbar(false)">
+                <i class="fa fa-close"></i>
+              </span>
+            </li>
+        </ul>
+      </nav>
     </header>
-    <!-- Top Navbar -->
-    <nav class="on-nav on-nav--top on-f-f--body on-fs-regular on-fw-bold on-container on-bg-primary">
-      <a class="on-nav__link on-nav__item--active" href="index.html">Design System</a>
-      <ul class="on-nav__list">
-        <li><a class="on-nav__link" href="about-me.html">About Me</a></li>
-        <li><a class="on-nav__link" href="#">Demo Site</a></li>
-      </ul>
-    </nav>
-    <!-- Mobile Navbar -->
-    <nav class="on-nav on-nav--mobile on-f-f--body on-fs-regular on-fw-bold">
-      <a class="on-nav__link on-nav__item--active" href="index.html">Design System</a>
-      <ul class="on-nav__list">
-          <li>
-            <span id="sidebarShow" onclick="toggleNavbar(true)">
-              <i class="fa fa-bars"></i>
-            </span>
-            <span id="sidebarHide" onclick="toggleNavbar(false)">
-              <i class="fa fa-close"></i>
-            </span>
-          </li>
-      </ul>
-    </nav>
     <main>
       <div class="on-content-layout on-container">
         <!-- Side Navbar -->
@@ -59,7 +58,7 @@
             </li>
             <ul class="on-nav__list">
               <li><a class="on-nav__link" href="spacing.html">04 Spacing</a></li>
-              <li><a class="on-nav__link" href="#">05 Containers</a></li>
+              <li><a class="on-nav__link" href="containers.html">05 Containers</a></li>
               <li><a class="on-nav__link" href="#">06 Images</a></li>
               <li><a class="on-nav__link" href="#">07 Interactive</a></li>
               <li><a class="on-nav__link" href="#">08 Feedback</a></li>

@@ -1,9 +1,28 @@
 /*  ===>> Navbar Styles START <<=== */
 
 /* Navbar container */
+
 .on-nav {
   display: flex;
   justify-content: space-between;
+}
+
+/* Fix position of top bar */
+.on-nav--top,.on-nav--mobile
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+/* Fix position of side navbar */
+.on-nav--side {
+  position: sticky;
+  top: 0;
+  width: 550px; 
+  height: 100vh; 
+  overflow-y: auto;
 }
 
 /* Styles for mobile navigation */
@@ -46,6 +65,7 @@
 
 /* Container for content layout */
 .on-content-layout {
+  padding-top: 50px;
   display: flex;
   text-align: start;
 }
@@ -100,7 +120,7 @@
 @media (min-width: 768px) {
 
   /*  ===>> Navbar Styles START <<=== */
-
+ 
   /* Hide certain elements on larger screens */
   .on-nav--mobile, #about-me-list {
     display: none;
@@ -111,6 +131,10 @@
     display: flex;
   }
 
+  /* Fix position of side bar */
+  .on-nav--side {
+    width: 250px; 
+  }
   /*  ===>> Navbar Styles END <<=== */
 
 /*  ===>> Color Styles START <<=== */
@@ -121,6 +145,6 @@
     display: table-row;
   }
   .on-color-swatches__swatch {
-    width: 400px;
+    width: 350px;
   }
 }

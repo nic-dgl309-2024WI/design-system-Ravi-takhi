@@ -67,8 +67,12 @@
   --grid-gap-1: 1rem; /* Gap between grid items */
   --grid-gap-2: 2rem; /* Larger gap between grid items */
   --grid-gap-3: 3rem; /* Largest gap between grid items */
-}
 
+    overscroll-behavior: none;
+}
+* {
+  box-sizing: border-box;
+}
 /* Text Color Utility Classes */
 /* Primary Text Color */
 .on-text-primary {
@@ -505,7 +509,7 @@
 }
 
 /* Container Class */
-.container {
+.on-container {
   width: 100%; /* Full width by default */
   max-width: 100%; /* No max-width on mobile */
   margin: 0 auto;
@@ -513,7 +517,7 @@
 
 /* Media query for desktop */
 @media screen and (min-width: 768px) {
-  .container {
+  .on-container {
     max-width: 1000px; /* Constrained max-width for desktop */
     width: 80%; /* Adjusted width for desktop */
   }

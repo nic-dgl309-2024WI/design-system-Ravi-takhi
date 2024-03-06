@@ -460,6 +460,14 @@
 {
   gap: 10px;
 }
+.l-gap-1
+{
+  gap: 25px;
+}
+.l-gap-2
+{
+  gap: 50px;
+}
 
 /* Grid Layout Classes */
 /* Apply display: grid; */

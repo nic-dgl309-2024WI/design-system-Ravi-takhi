@@ -86,65 +86,191 @@
             </ul>
           </ul>
         </nav>
-        <section>
-          <!-- Heading design -->
-          <h1 class="on-f-f--heading on-hs-xl" >Typography</h1>
-          <h2 class="on-f-f--heading on-hs-xl" >Font family: Montserrat, serif</h2>
-          <h2 class="on-f-f--heading on-hs-xl" >Heading 1</h2>
-          <h3 class="on-f-f--heading on-hs-large" >Heading 2</h3>
-          <h4 class="on-f-f--heading on-hs-medium" >Heading 3</h4>
-          <h5 class="on-f-f--heading on-hs-small" >Heading 4</h5>
-          <h6 class="on-f-f--heading on-hs-xs" >Heading 5</h6>
-          <!-- Heading typeface design -->
-          <h2 class="on-f-f--heading on-hs-large on-line-height-heading-3 on-text-accent">Heading typeface</h2>
-          <h2 class="on-f-f--heading on-hs-small on-hw-medium"> Font family: Montserrat, serif</h2>
-          <h3 class="on-f-f--heading on-hs-small on-hw-medium">Font size: Small</h3>
-          <h4 class="on-f-f--heading on-hs-small on-hw-medium">Class name: hs-small</h4>
-          <p class="on-f-f--heading on-hs-small">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
-          <p class="on-f-f-body on-hs-small">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-          <p class="on-f-f-body on-hs-small">0 1 2 3 4 5 6 7 8 9 0</p>
-          <!-- Body typeface design -->
-          <h2 class="on-f-f--heading on-hs-large on-line-height-heading-3 on-text-accent">Body typeface</h2>
-          <h2 class="on-f-f--heading on-hs-small on-hw-medium"> Font family: Merriweather, serif</h2>
-          <h3 class="on-f-f--heading on-hs-small on-hw-medium">Font size: Regular</h3>
-          <h4 class="on-f-f--heading on-hs-small on-hw-medium">Class name: fs-regular</h4>
-          <p class="on-f-f-body on-fs-regular">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
-          <p class="on-f-f-body on-fs-regular">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-          <p class="on-f-f-body on-fs-regular">0 1 2 3 4 5 6 7 8 9 0</p>
+        <div>
+          <h1 class="on-f-f--heading on-hs-xl on-l-my-1-5" >Typography</h1>
+          <section class="l-my-1-25">
+            <!-- Heading design -->
+            <fieldset class="l-flex l-flex-column">
+              <legend class="on-f-f--heading on-hs-large on-hw-medium">Font family: Montserrat, serif</legend>
+              <div class="on-l-my-1">
+                <h1 class="on-f-f--heading on-hs-xl" >Heading 1</h1>
+                <p>class name : on-hs-xl </p>
+              </div>
+              
+              <div class="on-l-my-1">
+                <h2 class="on-f-f--heading on-hs-large" >Heading 2</h2>
+                <p>class name : on-hs-xl </p>
+              </div>
+              
+              <div class="on-l-my-1">
+                <h3 class="on-f-f--heading on-hs-medium" >Heading 3</h3>
+                <p>class name : on-hs-xl </p>
+              </div>
+              
+              <div class="on-l-my-1">
+                <h4 class="on-f-f--heading on-hs-small" >Heading 4</h4>
+                <p>class name : on-hs-xl </p>
+              </div>
+              
+              <div class="on-l-my-1">
+                <h5 class="on-f-f--heading on-hs-xs" >Heading 5</h5>
+                <p>class name : on-hs-xl </p>
+              </div>
+            </fieldset>
+            </section>
+            <!-- Heading typeface design -->
+            <section class="on-l-my-1-25">
+              <fieldset class="l-flex l-flex-column">
+                <legend class="on-f-f--heading on-hs-large on-hw-medium">Heading typeface</legend>
+              <div class="l-flex on-l-p">
+                <div class="on-f-f--heading on-hs-small" style="text-align: left;">
+                  <table>
+                    <tr>
+                      <th>Font family:</th>
+                      <td>Montserrat, serif</td>
+                    </tr>
+                    <tr>
+                      <th>Font size:</th>
+                      <td>Small</td>
+                    </tr>
+                    <tr>
+                      <th>Class name:</th>
+                      <td>on-hs-small</td>
+                    </tr>
+                </table>
 
-          <!-- Utility classes usecase for heading -->
-          <h2 class="on-f-f--heading on-hs-large on-line-height-heading-3" >Utility classes uses for heading: </h2>
-          <h3 class="on-f-f--heading on-hs-xl on-hs-bold on-line-height-heading-3 on-letter-spacing-2 on-text-accent">Welcome to our Website</h3>
-          <h4> Class name: f-f--heading</h4>
-            <p>This class chooses a special font for the heading. It makes the text look different from regular text on the website.</p> 
-          <h4>Class name: hs-xl</h4>
-            <p> This class makes the heading larger than usual, giving it a bigger size.</p>
-          <h4>Class name: hs-bold</h4>
-            <p>This class makes the heading text bold, making it stand out more.</p> 
-          <h4>Class name: line-height-heading-3</h4>
-            <p>This class adjusts the spacing between lines of text in the heading. It ensures the text is not too crowded or too spread out.</p>
-          <h4>letter-spacing-2</h4>
-            <p>This class adds a bit of space between each letter in the heading. It helps make the text easier to read and gives it a unique style.</p> 
-          <h4>text-accent:</h4>
-            <p>This class changes the color of the heading text to a special color used for highlighting important information. It makes the text stand out and catch the reader's attention.</p> 
-          
-          <!-- Utility classes usecase for body -->
-          <h2 class="on-f-f--heading on-hs-large" >Utility classes uses for body: </h2>
-            <p class="on-f-f--body on-fs-medium on-fw-medium on-line-height-body-1 on-letter-spacing-1 on-text-primary">Explore the beauty of nature and the wonders of the world.</p>
-          <h4>Class name: f-f--body</h4>
-            <p>This class picks a special font style for the paragraph. It makes the text look different from other parts of the webpage.</p> 
-          <h4>Class name: fs-medium</h4>
-            <p>This class makes the text of the paragraph a medium size, neither too big nor too small.</p>
-          <h4>Class name: fw-medium</h4>
-            <p>This class makes the text of the paragraph medium in weight, neither too bold nor too thin.</p>
-          <h4>Class name: line-height-body-1</h4>
-            <p>This class sets the space between lines in the paragraph to a certain amount. It ensures the text is spaced out nicely and easy to read.</p> 
-          <h4>Class name: letter-spacing-1</h4>
-            <p>This class adds a little bit of space between each letter in the text. It helps make the text easier to read and gives it a unique style.</p> 
-          <h4>Class name: text-primary</h4>
-            <p>This class changes the color of the text to a primary color chosen for the webpage. It makes the text stand out and fit with the overall design.</p> 
-        </section>
+                </div>
+                <hr>
+                <div class="on-l-my-25 on-l-ml-1">
+                  <p class="on-f-f--heading on-hs-small on-l-py-1">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+                  <p class="on-f-f-body on-hs-small on-l-py-1">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+                  <p class="on-f-f-body on-hs-small on-l-py-1">0 1 2 3 4 5 6 7 8 9 0</p>
+                </div>
+              </div>
+              </fieldset>
+            </section>
+
+            
+            <!-- Body typeface design -->
+
+            <section class="on-l-my-1-25">
+              <fieldset>
+                <legend class="on-f-f--heading on-hs-large on-hw-medium" >Body typeface</legend>
+                  <div class="l-flex l-gap-1">
+                    <div class="l-flex on-f-f-body on-fs-large" style="text-align: left; width: 40%;">
+                      <table>
+                        <tr>
+                          <th>Font family:</th>
+                          <td>Merriweather, serif</td>
+                        </tr>
+                        <tr>
+                          <th>Font size:</th>
+                          <td>Regular</td>
+                        </tr>
+                        <tr>
+                          <th>Class name:</th>
+                          <td>on-fs-regular</td>
+                        </tr>
+                    </table>
+                    </div>
+                    <hr>
+                    <div class="l-flex l-flex-column on-l-my-25 on-l-ml-1">
+                      <p class="on-f-f-body on-fs-regular on-l-py-1">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+                      <p class="on-f-f-body on-fs-regular on-l-py-1">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
+                      <p class="on-f-f-body on-fs-regular on-l-py-1">0 1 2 3 4 5 6 7 8 9 0</p>
+                    </div>
+                </div>
+              </fieldset>
+            </section>
+            
+
+            <!-- Utility classes usecase for heading -->
+            <section class="on-l-my-1-25">
+              <fieldset class="l-flex l-flex-column">
+                <legend class="on-f-f--heading on-hs-large on-hw-medium" >Utility classes uses for heading</legend>
+                <h3 class="on-f-f--heading on-hs-xl on-hs-bold on-line-height-heading-3 on-letter-spacing-2 on-text-accent">Welcome to our Website</h3>
+                <div>
+                  <table style="text-align: left;">
+                    <tr style="height: 30px;">
+                      <th style="width: 100px;">Class name:</th>
+                      <td style="width: 100px;">on-f-f--heading</td>
+                      <td>This class chooses a special font for the heading. It makes the text look different from regular text on the website.</td>
+                    </tr>
+                    <tr style="height: 30px;">
+                      <th style="width: 100px;">Class name:</th>
+                      <td style="width: 100px;">on-hs-xl</td>
+                      <td>This class makes the heading larger than usual, giving it a bigger size.</td>
+                    </tr>
+                    <tr style="height: 30px;">
+                      <th style="width: 100px;">Class name:</th>
+                      <td style="width: 100px;">on-hs-bold</td>
+                      <td>This class makes the heading text bold, making it stand out more.</td>
+                    </tr>
+                    <tr style="height: 30px;">
+                      <th style="width: 100px;">Class name:</th>
+                      <td style="width: 150px;">on-line-height-heading-3</td>
+                      <td>This class adjusts the spacing between lines of text in the heading. It ensures the text is not too crowded or too spread out.</td>
+                    </tr>
+                    <tr style="height: 30px;">
+                      <th style="width: 100px;">Class name:</th>
+                      <td style="width: 100px;">on-letter-spacing-2</td>
+                      <td>This class adds a bit of space between each letter in the heading. It helps make the text easier to read and gives it a unique style.</td>
+                    </tr>
+                    <tr style="height: 30px;">
+                      <th style="width: 100px;">Class name:</th>
+                      <td style="width: 100px;">on-text-accent</td>
+                      <td>This class changes the color of the heading text to a special color used for highlighting important information. </td>
+                    </tr>
+                  </table>
+                </div>
+              </fieldset>
+            </section>
+            
+            
+            <!-- Utility classes usecase for body -->
+            <section class="on-l-my-1-25">
+              <fieldset class="l-flex l-flex-column">
+                <legend class="on-f-f--heading on-hs-large on-hw-medium" >Utility classes uses for body</legend>
+                <p class="on-f-f--body on-fs-medium on-fw-medium on-line-height-body-1 on-letter-spacing-1 on-text-primary">Explore the beauty of nature and the wonders of the world.</p>
+                <div>
+                  <table style="text-align: left;">
+                    <tr style="height: 30px;">
+                      <th style="width: 100px;">Class name:</th>
+                      <td style="width: 100px;">on-f-f--body</td>
+                      <td>This class picks a special font style for the paragraph. It makes the text look different from other parts of the webpage.</td>
+                    </tr>
+                    <tr style="height: 30px;">
+                      <th style="width: 100px;">Class name:</th>
+                      <td style="width: 100px;">on-fs-medium</td>
+                      <td>This class makes the text of the paragraph a medium size, neither too big nor too small.</td>
+                    </tr>
+                    <tr style="height: 30px;">
+                      <th style="width: 100px;">Class name:</th>
+                      <td style="width: 100px;">on-fw-medium</td>
+                      <td>This class makes the text of the paragraph medium in weight, neither too bold nor too thin.</td>
+                    </tr>
+                    <tr style="height: 30px;">
+                      <th style="width: 100px;">Class name:</th>
+                      <td style="width: 150px;">on-line-height-body-1</td>
+                      <td>This class sets the space between lines in the paragraph to a certain amount. It ensures the text is spaced out nicely and easy to read.</td>
+                    </tr>
+                    <tr style="height: 30px;">
+                      <th style="width: 100px;">Class name:</th>
+                      <td style="width: 100px;">on-letter-spacing-1</td>
+                      <td>This class adds a little bit of space between each letter in the text. It helps make the text easier to read and gives it a unique style.</td>
+                    </tr>
+                    <tr style="height: 30px;">
+                      <th style="width: 100px;">Class name:</th>
+                      <td style="width: 100px;">on-text-primary</td>
+                      <td>This class changes the color of the text to a primary color chosen for the webpage. It makes the text stand out and fit with the overall design.</td>
+                    </tr>
+                  </table>
+                </div>
+              </fieldset>
+            </section>
+        </div>
       </div>
+        
     </main>
   </body>
 </html>

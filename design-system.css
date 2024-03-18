@@ -119,11 +119,11 @@
 
 .l-grid__item {
   border: 1px solid var(--secondary-bg-color);
+  padding: 10px;
   text-align: center;
 }
 
 .l-grid__example-box {
-
   width: 200px;
   height: 150px;
   background-color: var(--secondary-bg-color);
@@ -152,7 +152,7 @@
 
   /* Fix position of side bar */
   .on-nav--side {
-    width: 250px; 
+    width: 270px; 
   }
   /*  ===>> Navbar Styles END <<=== */
 

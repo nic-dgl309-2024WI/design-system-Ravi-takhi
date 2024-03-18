@@ -548,6 +548,14 @@
 {
   align-items: center;
 }
+.on-align__content--justifycenter
+{
+  justify-content: center;
+}
+.on-align__self--center
+{
+  align-self: center;
+}
 
 /* Grid Layout Classes */
 /* Apply display: grid; */

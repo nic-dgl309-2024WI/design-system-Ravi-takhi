@@ -596,8 +596,11 @@
 /* Container Class */
 .on-container {
   width: 100%; /* Full width by default */
-  max-width: 100%; /* No max-width on mobile */
   margin: 0 auto;
+}
+.on-container-maxwidth
+{
+  max-width: 100%; /* No max-width on mobile */
 }
 
 /* Media query for desktop */

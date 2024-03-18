@@ -124,6 +124,11 @@
   text-align: center;
 }
 
+.on-l-grid__item1 {
+  border: 1px solid var(--secondary-bg-color);
+  padding: 10px;
+  text-align: center;
+}
 
 /*  ===>> Spacing Styles END <<=== */
 

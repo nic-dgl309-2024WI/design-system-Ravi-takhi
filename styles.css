@@ -66,9 +66,9 @@
   --grid-row-1-size: 1fr; /* First row height */
   --grid-row-2-size: 1fr; /* Second row height */
   --grid-row-3-size: 1fr; /* Third row height */
-  --grid-gap-1: 1rem; /* Gap between grid items */
-  --grid-gap-2: 2rem; /* Larger gap between grid items */
-  --grid-gap-3: 3rem; /* Largest gap between grid items */
+  --grid-gap-1: 10px; /* Gap between grid items */
+  --grid-gap-2: 25px; /* Larger gap between grid items */
+  --grid-gap-3: 50px; /* Largest gap between grid items */
 
     overscroll-behavior: none;
 }
@@ -454,144 +454,140 @@
 /* Flex Layout Classes */
 
 /* Apply display: flex */
-.l-flex {
+.on-l-flex {
   display: flex;
 }
 
 /* Flex direction: row */
-.l-flex-row {
+.on-l-flex-row {
   flex-direction: row;
 }
 
 /* Flex direction: row-reverse */
-.l-flex-row-reverse {
+.on-l-flex-row-reverse {
   flex-direction: row-reverse;
 }
 
 /* Flex direction: column */
-.l-flex-column {
+.on-l-flex-column {
   flex-direction: column;
 }
 
 /* Flex direction: column-reverse */
-.l-flex-column-reverse {
+.on-l-flex-column-reverse {
   flex-direction: column-reverse;
 }
 
 /* Justify content: flex-start */
-.l-justify-start {
+.on-l-justify-start {
   justify-content: flex-start;
 }
 
 /* Justify content: flex-end */
-.l-justify-end {
+.on-l-justify-end {
   justify-content: flex-end;
 }
 
 /* Justify content: center */
-.l-justify-center {
+.on-l-justify-center {
   justify-content: center;
 }
 
 /* Justify content: space-between */
-.l-justify-between {
+.on-l-justify-between {
   justify-content: space-between;
 }
 
 /* Justify content: space-around */
-.l-justify-around {
+.on-l-justify-around {
   justify-content: space-around;
 }
 
 /* Align items: flex-start */
-.l-align-start {
+.on-l-align-start {
   align-items: flex-start;
 }
 
 /* Align items: flex-end */
-.l-align-end {
+.on-l-align-end {
   align-items: flex-end;
 }
 
 /* Align items: center */
-.l-align-center {
+.on-l-align-center {
   align-items: center;
 }
 
 /* Align items: baseline */
-.l-align-baseline {
+.on-l-align-baseline {
   align-items: baseline;
 }
 
 /* Align items: stretch */
-.l-align-stretch {
+.on-l-align-stretch {
   align-items: stretch;
 }
 
-.l-gap
+.on-l-gap
 {
   gap: 10px;
 }
-.l-gap-1
+.on-l-gap-1
 {
   gap: 25px;
 }
-.l-gap-2
+.on-l-gap-2
 {
   gap: 50px;
-}
-.l-gap-3
-{
-  gap: 100px;
 }
 
 /* Grid Layout Classes */
 /* Apply display: grid; */
-.l-grid {
+.on-l-grid {
   display: grid;
 }
 
 /* Grid template columns */
-.l-grid-cols-1 {
+.on-l-grid-cols-1 {
   --grid-cols: var(--grid-col-1-size);
 }
 
-.l-grid-cols-2 {
+.on-l-grid-cols-2 {
   --grid-cols: var(--grid-col-1-size) var(--grid-col-2-size);
 }
 
-.l-grid-cols-3 {
+.on-l-grid-cols-3 {
   --grid-cols: var(--grid-col-1-size) var(--grid-col-2-size) var(--grid-col-3-size);
 }
 
 /* Grid template rows */
-.l-grid-rows-1 {
+.on-l-grid-rows-1 {
   --grid-rows: var(--grid-row-1-size);
 }
 
-.l-grid-rows-2 {
+.on-l-grid-rows-2 {
   --grid-rows: var(--grid-row-1-size) var(--grid-row-2-size);
 }
 
-.l-grid-rows-3 {
+.on-l-grid-rows-3 {
   --grid-rows: var(--grid-row-1-size) var(--grid-row-2-size) var(--grid-row-3-size);
 }
 
 /* Grid gap */
-.l-gap-1 {
+.on-l-gap-1 {
   --grid-gap: var(--grid-gap-1);
 }
 
-.l-gap-2 {
+.on-l-gap-2 {
   --grid-gap: var(--grid-gap-2);
 }
 
-.l-gap-3 {
+.on-l-gap-3 {
   --grid-gap: var(--grid-gap-3);
 }
 
 /* Apply styles using var() */
-.l-grid {
+.on-l-grid {
   grid-template-columns: var(--grid-cols);
   grid-template-rows: var(--grid-rows);
   gap: var(--grid-gap);

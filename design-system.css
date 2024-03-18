@@ -117,19 +117,13 @@
 
 /*  ===>> Spacing Styles START <<=== */
 
-.l-grid__item {
+.on-l-grid__item {
   border: 1px solid var(--secondary-bg-color);
   padding: 10px;
+  width: 150px;
   text-align: center;
 }
 
-.l-grid__example-box {
-  width: 200px;
-  height: 150px;
-  background-color: var(--secondary-bg-color);
-  border: 1px solid var(--accent-color);
-  display: inline-block;
-}
 
 /*  ===>> Spacing Styles END <<=== */
 
@@ -165,5 +159,8 @@
   }
   .on-color-swatches__swatch {
     width: 350px;
+  }
+  .on-l-grid__item {
+    width: 400px;
   }
 }

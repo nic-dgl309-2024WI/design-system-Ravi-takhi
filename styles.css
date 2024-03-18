@@ -428,8 +428,8 @@
 
 /* Apply padding to the right and left */
 .on-l-px-1 {
-  padding-right: var(--spacing-1);
-  padding-left: var(--spacing-1);
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 /* Apply padding to the top and bottom */
@@ -528,6 +528,8 @@
   align-items: stretch;
 }
 
+/* gap for flex */
+
 .on-l-gap
 {
   gap: 10px;
@@ -539,6 +541,12 @@
 .on-l-gap-2
 {
   gap: 50px;
+}
+
+/* Align center classes */
+.on-align__items--center
+{
+  align-items: center;
 }
 
 /* Grid Layout Classes */

@@ -629,7 +629,7 @@
 /* Media query for desktop */
 @media screen and (min-width: 768px) {
   .on-container {
-    max-width: 1000px; /* Constrained max-width for desktop */
+    max-width: 1920px; /* Constrained max-width for desktop */
     width: 80%; /* Adjusted width for desktop */
   }
 }

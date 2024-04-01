@@ -155,6 +155,40 @@
   text-align: center;
 }
 
+
+/* HERO */
+.on-hero {
+  background-image: url(images/herobg.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top;
+  height: 60vh;
+}
+
+.on-hero__content
+{
+  width: 50%;
+  margin-left: 50px; /* change */
+}
+.on-hero__tagline
+{
+  font-size: var(--heading-size-xl);
+}
+.on-hero__cta-button
+{
+  width: 180px;
+  height: 60px;
+  background-color: var(--accent-color);
+  border-radius: 7px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 /*  ===>> Spacing Styles END <<=== */
 
 
@@ -194,6 +228,16 @@
     width: 400px;
   }
 
-
+  .on-hero {
+    height: 100vh;
+  }
+  .on-hero__content
+  {
+    margin-left: 100px; /* change */
+  }
+  .on-hero__tagline
+  {
+    font-size: var(--heading-size-2xl);
+  }
   
 }

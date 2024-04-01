@@ -14,6 +14,7 @@
   --body-font: 'Merriweather', serif;
 
   /* Font size */
+  --heading-size-2xl: 60px;
   --heading-size-xl: 36px;
   --heading-size-large: 24px;
   --heading-size-medium: 20px;
@@ -134,6 +135,12 @@
 }
 
 /* Utility Classes for Heading Sizes */
+/* Double extra large */
+
+.on-hs-2xl {
+  font-size: var(--heading-size-2xl);
+}
+
 /* Extra Large Heading */
 .on-hs-xl {
   font-size: var(--heading-size-xl);
@@ -636,6 +643,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-size: 1.6rem;
 }
 
 /* Margin Reset */

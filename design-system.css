@@ -4,8 +4,9 @@
 
 .on-nav {
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: space-around;
+  gap: 300px; /* will remove */
+ }
 
 /* Fix position of top bar */
 .on-nav--top,.on-nav--mobile
@@ -57,6 +58,25 @@
 .on-nav--side,
 #sidebarHide {
   display: none;
+}
+
+/* Dropdown menu for mobile view */
+.on-nav__dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--primary-bg-color);
+  /*padding: 10px;*/
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Margin for dropdown element */
+.on-nav__dropdown li {
+  margin: 5px 0;
 }
 
 /*  ===>> Navbar Styles END <<=== */
@@ -173,4 +193,7 @@
   .on-l-grid__item {
     width: 400px;
   }
+
+
+  
 }

@@ -174,7 +174,7 @@
 {
   font-size: var(--heading-size-xl);
 }
-.on-hero__cta-button
+.on-hero__cta-button, .on-gift-purchase__button
 {
   width: 180px;
   height: 60px;
@@ -270,6 +270,50 @@
 }
 
 /* --- */
+
+/*-- gift and certificate */ 
+.on-gift-section {
+  display: flex;
+}
+
+.on-gift-image {
+  flex: 60%;
+}
+
+.on-gift-image img {
+  width: 100%;
+  height: auto;
+}
+
+.on-gift-details {
+  flex: 40%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.on-gift-details h2 {
+  margin-bottom: 10px;
+}
+
+.on-gift-details p {
+  margin-bottom: 20px;
+}
+.on-gift-purchase__button
+{
+  width: 180px;
+  height: 60px;
+  background-color: var(--secondary-text-color);
+  border-radius: 7px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 
 
 

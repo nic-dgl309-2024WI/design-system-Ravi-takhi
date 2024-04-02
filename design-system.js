@@ -46,3 +46,45 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+  const testimonials = [
+    { text: "I couldn't be happier with the results!", author: "John Doe" },
+    { text: "Amazing service! Highly recommended.", author: "Jane Smith" },
+    { text: "The best decision I've ever made!", author: "Bob Johnson" },
+  ];
+
+  let currentTestimonial = 0;
+
+  const testimonialElem = document.querySelector(".on-testimonial-container__title");
+  const authorElem = document.querySelector(".on-testimonial-container__author");
+  const prevBtn = document.querySelector(".on-testimonial-container__button#prev-btn");
+  const nextBtn = document.querySelector(".on-testimonial-container__button#next-btn");
+
+  function showTestimonial() {
+    const testimonial = testimonials[currentTestimonial];
+    testimonialElem.textContent = `"${testimonial.text}"`;
+    authorElem.textContent = `- ${testimonial.author}`;
+  }
+
+  function showPrev() {
+    currentTestimonial--;
+    if (currentTestimonial < 0) {
+      currentTestimonial = testimonials.length - 1;
+    }
+    showTestimonial();
+  }
+
+  function showNext() {
+    currentTestimonial++;
+    if (currentTestimonial >= testimonials.length) {
+      currentTestimonial = 0;
+    }
+    showTestimonial();
+  }
+
+  prevBtn.addEventListener("click", showPrev);
+  nextBtn.addEventListener("click", showNext);
+
+  showTestimonial();
+});
+

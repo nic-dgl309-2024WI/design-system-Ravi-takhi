@@ -15,9 +15,10 @@
     <header>
       <!-- Top Navbar -->
       <nav class="on-nav on-nav--top on-f-f--body on-fs-regular on-fw-bold on-bg-primary on-align__items--center">
-        <a class="on-nav__link on-nav__item--active on-l-mx-1-25" href="index.html">Design System</a>
+        <a class="on-nav__link on-nav__item--active on-l-mx-1-25" href="index.html">Logo</a>
         <ul class="on-nav__list">
           <li class="on-l-mx-1-5"><a class="on-nav__link" href="#">Plants</a></li>
+          <li class="on-l-mx-1-5"><a class="on-nav__link" href="#">Services</a></li>
           <li class="on-l-mx-1-5"><a class="on-nav__link" href="#">Resources</a></li>
           <li class="on-l-mx-1-5"><a class="on-nav__link" href="#">About</a></li>
           <li class="on-l-mx-1-5"><a class="on-nav__link" href="#">Contact</a></li>
@@ -25,7 +26,7 @@
       </nav>
       <!-- Mobile Navbar -->
       <nav class="on-nav on-nav--mobile on-f-f--body on-fs-regular on-fw-bold on-bg-secondary on-align__items--center">
-        <a class="on-nav__link on-nav__item--active" href="index.html">Design System</a>
+        <a class="on-nav__link on-nav__item--active" href="index.html">Logo</a>
         <ul class="on-nav__list">
             <li>
               <span id="sidebarShow" onclick="toggleNavbar(true)">
@@ -47,7 +48,7 @@
     </header>
     <main class="on-bg-primary">
       <!-- Hero -->
-      <section class="on-hero on-l-flex on-align__items--center">
+      <section class="on-hero on-l-flex on-align__items--center on-container-maxwidth">
         <div class="on-hero__content">
           <h1 class="on-f-f--heading on-hero__tagline on-letter-spacing-2">Explore our diverse selection of high quality.</h1>
           <a class="on-hero__cta-button on-f-f--body on-letter-spacing-1">Explore now!</a>
@@ -181,6 +182,21 @@
           </div>
         </div>
       </section>
+      <section class="on-container about-us">
+        <div class="about-us__image">
+          <!-- Place your image here -->
+          <img src="images/Journey.jpg" width="400px" alt="About Us Image">
+        </div>
+        <div class="about-us__content">
+          <h2 class="about-us__title on-f-f--heading on-hs-xl">About Us</h2>
+          <p class="about-us__paragraph on-f-f--body on-fs-regular">
+            Quis eleifend orci nunc, blandit massa, vitae. Dui nulla augue in id enim non. Venenatis aenean suscipit facilisis amet. Pellentesque nullam mi vitae neque ipsum. Quis in vitae est eu pulvinar sed. Netus lorem sit turpis tristique pharetra sit. Tortor ornare libero semper cursus. Mollis erat augue egestas laoreet est auctor.
+<br>
+Dui nulla augue in id enim non. Venenatis aenean suscipit facilisis amet. Pellentesque nullam mi vitae neque ipsum. Sem magna ut pharetra vitae duis eu senectus sem risus. Morbi non, semper vestibulum euismod accumsan augue.
+          </p>
+          <a href="#" class="about-us__button">Read More</a>
+        </div>
+      </section>
       <!-- Testimonial-->
       <section>
         <div class="on-testimonial-container">
@@ -219,9 +235,81 @@
             <input class="input-submit contact-us__submit" type="submit" value="Submit">
           </form>
         </div>
+      </section>   
+      <!-- Footer -->
+    <footer class="on-container-maxwidth">
+      <section class="footer-container on-l-flex on-container">
+        <div class="footer-address-container">
+          <div class="footer-info">
+            LOGO
+            <p>
+              Transforming Visions into Homes | Perspective Design Building - Expertise in Design and Build Services
+            </p>
+          </div>
+          <div class="footer-address">
+            <div>
+              <i class="fa fa-map-marker fa-1x color-theme-highlighted" aria-hidden="true"></i>
+              <p>2463E Rosewall Crescent, Courtenay, BC V9N 1H8</p>
+            </div>
+            <div>
+              <i class="fa fa-phone fa-1x color-theme-highlighted" aria-hidden="true"></i>
+              <p>778-647-2266</p>
+            </div>
+            <div>
+              <i class="fa fa-envelope fa-1x color-theme-highlighted" aria-hidden="true"></i>
+              <p>office@buildwithperspective.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-menu">
+          <div class="footer-menu-list">
+            <h3 class="color-theme-light">Menu</h3>
+            <ul>
+              <li> <a href="#">How it works</a> </li>
+              <li><a href="#">Features</a></li>
+              <li> <a href="#">Pricing</a></li>
+              <li><a href="#">Testimonials</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+            </ul>
+          </div>
+          <div class="footer-menu-list">
+            <h3 class="color-theme-light">Service</h3>
+            <ul>
+              <li><a href="#">Our team</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Stores</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="color-theme-light">Newsletter</h3>
+            <ul>
+              <li>
+                Sign up for our mailing list to get latest updates and offers
+              </li>
+              <li>
+                <form action="#" method="POST">
+                  <input class="inputfield-signup" type="text" required placeholder="  Enter your Email" name="signup" id="signup">
+                  <input class="signup-button" type="submit" name="SignUp" value="SignUp">
+                </form>
+              </li>
+              <li class="footer-media-icons">
+                <a href="https://www.facebook.com/people/Perspective-Design-Build-Ltd/100063958185786/">
+                  <i class="fa fa-facebook fa-1x color-theme-light" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/perspectivedesignbuildltd/">
+                  <i class="fa fa-instagram fa-1x color-theme-light" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
-      
-      
+      <hr>
+      <section class="footer-disclaimer on-container">
+        <a href="#"><b>Terms and Conditions</b></a>
+        <b> &copy; 2023 Form | All rights reserved</b>
+        <p class="color-theme-light">This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</p>
+      </section>
     </main>
   </body>
 </html>

@@ -626,6 +626,11 @@
   max-width: 100%; /* No max-width on mobile */
 }
 
+.on-border
+{
+  border: solid;
+}
+
 /* Media query for desktop */
 @media screen and (min-width: 768px) {
   .on-container {

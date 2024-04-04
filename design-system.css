@@ -361,6 +361,7 @@
 
 .contact-us div {
   padding: 0 10px;
+  padding-bottom: 50px;
 }
 
 /* ==> Iframe Style <== */
@@ -447,7 +448,6 @@ footer {
   background-color: var(--secondary-bg-color);
   padding: 0 20px;
   padding-top: 50px;
-  margin-top: 50px;
 }
 .footer-info {
   display: flex;
@@ -483,7 +483,7 @@ footer {
 }
 .signup-button {
   display: flex;
-  border: 1px solid #d58d44;
+  border: 1px solid var(--accent-color);
   background: var(--secondary-text-color);
   font-size: 1.8rem;
   color: white;
@@ -528,6 +528,19 @@ footer a {
   color: var(--clr-primary);
 }
 
+/* -- coming soon -- */
+
+.coming-soon {
+  display: flex;
+  align-items: center;
+  height: 500px;
+  justify-content: center;
+}
+
+.coming-soon__title {
+  font-size: 36px;
+  color: var(--clr-primary)
+}
 
 /*  ===>> Spacing Styles END <<=== */
 

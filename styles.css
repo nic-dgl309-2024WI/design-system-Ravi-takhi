@@ -569,6 +569,11 @@
   align-self: center;
 }
 
+.on-text__center
+{
+  text-align: center;
+}
+
 /* Grid Layout Classes */
 /* Apply display: grid; */
 .on-l-grid {

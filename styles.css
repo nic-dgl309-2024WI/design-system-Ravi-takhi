@@ -535,6 +535,11 @@
   align-items: stretch;
 }
 
+.on-l-flex-wrap
+{
+  flex-wrap: wrap;
+}
+
 /* gap for flex */
 
 .on-l-gap

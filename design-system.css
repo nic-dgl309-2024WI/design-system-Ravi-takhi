@@ -4,8 +4,6 @@
 
 .on-nav {
   display: flex;
-  justify-content: space-around;
-  gap: 300px; /* will remove */
  }
 
 /* Fix position of top bar */
@@ -34,7 +32,6 @@
 /* Styles for navigation list */
 .on-nav__list {
   list-style-type: none;
-  margin: 10px 0;
 }
 
 /* Styles for navigation links */
@@ -193,39 +190,22 @@
 
 /* FRESH ARIVAL */
 
-.on-product-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
 .on-product-card {
   width: 100%;
   height: 500px;
-  margin-bottom: 20px;
-  overflow: hidden; /* Ensure that overflow content is hidden */
-  text-align: center;
+  overflow: hidden;
 }
 
 .on-product-card__image {
-  display: flex;
-  align-items: center;
   height: 400px;
-  background-color: #eaefdc;
+  background-color: var(--secondary-bg-color);
   border-radius: 10px;
-  justify-content: center;
 }
 
 .on-product-card__image img {
   width: 200px;
   height: auto;
   display: block;
-}
-
-.on-product-card__details {
-  padding: 10px;
-
 }
 
 /* product list */
@@ -545,7 +525,6 @@ footer a {
 /*  ===>> Spacing Styles END <<=== */
 
 
-
 /*  ===>> Media query for DESKTOP <<=== */
 @media (min-width: 768px) {
 
@@ -596,12 +575,12 @@ footer a {
 /* Fresh arrivals */
   .on-product-container {
     flex-direction: row;
+    gap: 20px;
   }
   
   .on-product-card {
     height: 500px;
     width: calc(25% - 20px); /* Adjust as needed */
-    text-align: left;
   }
 
   

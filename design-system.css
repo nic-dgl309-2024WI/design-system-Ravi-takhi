@@ -236,35 +236,7 @@
 /* --- */
 
 /*-- gift and certificate */ 
-.on-gift-section {
-  display: flex;
-}
 
-.on-gift-image {
-  text-align: center;
-  flex: 60%;
-}
-
-.on-gift-image img {
-  width: 80%;
-  height: auto;
-}
-
-.on-gift-details {
-  flex: 40%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.on-gift-details h2 {
-  margin-bottom: 10px;
-}
-
-.on-gift-details p {
-  margin-bottom: 20px;
-}
 .on-gift-purchase__button
 {
   width: 180px;

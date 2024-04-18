@@ -410,31 +410,17 @@
 }
 
 /* about us*/
-.about-us {
-  display: flex;
-  align-items: center;
-  margin-top: 50px;
-}
 
-.about-us__image {
+.on-about-us__image {
   display: none;
 }
 
-.about-us__content {
+.on-about-us__content {
   flex: 1;
-  padding: 0 20px;
+  /* padding: 0 20px; add padding here*/
 }
 
-.about-us__title {
-  margin-bottom: 10px;
-}
-
-.about-us__paragraph {
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.about-us__button {
+.on-about-us__button {
   display: inline-block;
   padding: 10px 20px;
   background-color: var(--primary-text-color);
@@ -620,7 +606,7 @@ footer a {
     flex: 1;
   }
 
-  .about-us__image {
+  .on-about-us__image {
     display: flex;
     flex: 1;
   }

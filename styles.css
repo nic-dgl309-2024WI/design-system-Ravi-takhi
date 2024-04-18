@@ -573,6 +573,10 @@
 {
   text-align: center;
 }
+.on-text__left
+{
+  text-align: left;
+}
 
 /* Grid Layout Classes */
 /* Apply display: grid; */

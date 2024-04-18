@@ -280,6 +280,38 @@
   margin-top: 20px;
 }
 
+/* FAQ's */
+
+.on-faqs__item{
+  width: 80%;
+  padding: 20px;  /* will use padding class */
+  background-color: var(--secondary-text-color);
+  color: var(--primary-bg-color);
+  cursor: pointer;
+  border: none;
+  /*
+  font-size: 18px;
+  font-weight: 600; */
+}
+.on-faqs__item:after{
+    content: '\002B';
+    float: right;
+    margin-left: 5px; /* will remove */
+}
+.active:after{
+    content: '\2212';
+}
+.on-faqs__content{
+    padding: 0 18px;
+    width: 80%; /* will remove */
+    overflow: hidden;
+    border-width: 0 0 2px 0;
+    border-color: var(--primary-bg-color);
+    border-style: solid;
+    max-height: 0;
+    transition:  max-height 0.2s ease-out;
+}
+
 /* -- Testmonials */
 
 .on-testimonial {
@@ -335,28 +367,17 @@
 
  
 
-/* -- */
-.contact-us {
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
-}
-
-.contact-us div {
-  padding: 0 10px;
-  padding-bottom: 50px;
-}
+/* --Contact Us-- */
 
 /* ==> Iframe Style <== */
-.contact-us__map iframe {
+.on-contact-us__map {
   overflow: hidden;
   border: none;
-  width: 100%;
 }
 
 /* ==> Form Style <== */
-.contact-us__form .inputfield-text,
-.contact-us__form .input-select {
+.on-contact-us__input,
+.on-contact-us__select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -366,7 +387,7 @@
   box-sizing: border-box;
 }
 
-.contact-us__form .input-submit {
+.on-contact-us__submit {
   width: 100%;
   background-color: var(--accent-color);
   color: white;
@@ -377,7 +398,7 @@
   cursor: pointer;
 }
 
-.contact-us__form textarea {
+.on-contact-us__textarea {
   width: 100%;
   height: 150px;
   padding: 12px 20px;
@@ -588,16 +609,14 @@ footer a {
 
   
   /* ==>  Form Style desktop <== */
-  .contact-us {
-    padding: 0;
-    display: flex;
+  .on-contact-us {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  iframe {
-    flex: 1.5;
+  .on-contact-us__map {
+    flex: 1;
   }
-  .contact-us div {
+  .on-contact-us__form {
     flex: 1;
   }
 

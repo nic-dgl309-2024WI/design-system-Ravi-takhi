@@ -488,6 +488,9 @@
 .on-l-pr-1-35 {
  padding-right: var(--spacing-1-35);
 }
+.on-l-pl-1-35 {
+  padding-left: var(--spacing-1-35);
+ }
 .on-l-pr-1-50 {
   padding-right: var(--spacing-1-50);
 }

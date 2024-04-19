@@ -241,6 +241,7 @@
   color: var(--primary-bg-color);
   cursor: pointer;
   border: none;
+  border-radius: 5px;
 }
 .on-faqs__item:after{
     content: '\002B';

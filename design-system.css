@@ -157,7 +157,7 @@
 .on-hero__content
 {
   width: 50%;
-  margin-left: 50px; /* change */
+  margin-left: var(--spacing-1-50);
 }
 .on-hero__tagline
 {
@@ -527,13 +527,13 @@ footer a {
   .on-l-grid__item {
     width: 400px;
   }
-
+/*  ===>> Hero Styles START <<=== */
   .on-hero {
     height: 100vh;
   }
   .on-hero__content
   {
-    margin-left: 100px; /* change */
+    margin-left: var(--spacing-1-100);
   }
   .on-hero__tagline
   {
@@ -543,10 +543,10 @@ footer a {
   /* Hero section */
   .on-hero__cta-button
   {
-     width: 180px;
+    width: 180px;
     height: 60px;
   }
-
+/*  ===>> Hero Styles END <<=== */
 
 /* Fresh arrivals */
   .on-product-container {

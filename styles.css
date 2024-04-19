@@ -482,6 +482,10 @@
 .on-l-pr-1-100 {
   padding-right: var(--spacing-1-100);
 }
+.on-l-px-1-50 {
+  padding-right: var(--spacing-1-50);
+  padding-left: var(--spacing-1-50);
+}
 
 /* Flex Layout Classes */
 

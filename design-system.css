@@ -555,7 +555,7 @@ footer a {
   }
   
   .on-product-card {
-    height: 500px;
+    height: 480px;
     width: calc(25% - 20px); /* Adjust as needed */
   }
 

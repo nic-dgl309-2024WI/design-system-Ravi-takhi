@@ -287,22 +287,21 @@
 
 .on-testimonial__text {
   overflow: auto;
-  font-style: oblique;
 }
 
 
 .on-testimonials__prev,
 .on-testimonials__next {
-  display: inline-block;
+  display: flex;
   background: var(--primary-bg-color);
   box-shadow: 0 2px 4px 1px rgba(50, 50, 93, 0.1);
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
+  width: 7rem;
+  height: 4rem;
+  border-radius: 5px;
   padding: 0.5rem;
   margin: 0.5rem;
-  font-size: 1.5rem;
   text-align: center;
+  justify-content: center;
   color: var(--secondary-text-color);
   transition: 0.3s ease;
 }

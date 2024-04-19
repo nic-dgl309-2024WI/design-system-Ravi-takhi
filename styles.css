@@ -410,6 +410,11 @@
 .on-l-mt-1-35 {
   margin-top: var(--spacing-1-35);
 }
+
+.on-l-mb-1-35 {
+  margin-bottom: var(--spacing-1-35);
+}
+
 .on-l-mb-1-50 {
   margin-bottom: var(--spacing-1-50);
 }

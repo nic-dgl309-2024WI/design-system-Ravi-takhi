@@ -1,11 +1,5 @@
 /*  ===>> Navbar Styles START <<=== */
 
-/* Navbar container */
-
-.on-nav {
-  display: flex;
- }
-
 /* Fix position of top bar */
 .on-nav--top,.on-nav--mobile
 {
@@ -65,11 +59,9 @@
   left: 0;
   width: 100%;
   background-color: var(--primary-bg-color);
-  /*padding: 10px;*/
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 
 /* Margin for dropdown element */
 .on-nav__dropdown li {

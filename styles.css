@@ -472,6 +472,17 @@
   padding: var(--spacing-1-5);
 }
 
+.on-l-pr-1-35 {
+ padding-right: var(--spacing-1-35);
+}
+.on-l-pr-1-50 {
+  padding-right: var(--spacing-1-50);
+}
+
+.on-l-pr-1-100 {
+  padding-right: var(--spacing-1-100);
+}
+
 /* Flex Layout Classes */
 
 /* Apply display: flex */

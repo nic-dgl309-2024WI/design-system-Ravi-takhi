@@ -237,19 +237,14 @@
 
 .on-faqs__item{
   width: 80%;
-  padding: 20px;  /* will use padding class */
   background-color: var(--secondary-text-color);
   color: var(--primary-bg-color);
   cursor: pointer;
   border: none;
-  /*
-  font-size: 18px;
-  font-weight: 600; */
 }
 .on-faqs__item:after{
     content: '\002B';
     float: right;
-    margin-left: 5px; /* will remove */
 }
 .active:after{
     content: '\2212';

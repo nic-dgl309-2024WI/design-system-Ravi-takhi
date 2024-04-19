@@ -250,8 +250,7 @@
     content: '\2212';
 }
 .on-faqs__content{
-    padding: 0 18px;
-    width: 80%; /* will remove */
+    width: 80%;
     overflow: hidden;
     border-width: 0 0 2px 0;
     border-color: var(--primary-bg-color);

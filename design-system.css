@@ -165,17 +165,11 @@
 }
 .on-hero__cta-button, .on-gift-purchase__button
 {
-  width: 180px;
-  height: 60px;
-  background-color: var(--accent-color);
+  width: 140px;
+  height: 50px;
+  color: var(--primary-bg-color);
   border-radius: 7px;
-  color: white;
   text-decoration: none;
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
 }
 
 /* HERO END */
@@ -545,6 +539,14 @@ footer a {
   {
     font-size: var(--heading-size-2xl);
   }
+
+  /* Hero section */
+  .on-hero__cta-button
+  {
+     width: 180px;
+    height: 60px;
+  }
+
 
 /* Fresh arrivals */
   .on-product-container {

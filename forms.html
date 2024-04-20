@@ -92,36 +92,51 @@
           </ul>
         </nav>
         <section class="on-container">
-          <h1 class="on-f-f--heading on-hs-xl on-l-my-1-5" >Cards</h1>
+          <h1 class="on-f-f--heading on-hs-xl on-l-my-1-5" >Forms</h1>
           <fieldset>
-            <legend class="on-f-f--heading on-hs-large on-hw-medium">Cards design</legend>
-            <div class="on-product-container on-l-flex on-l-flex-column on-l-justify-around on-l-flex-wrap on-l-mt-1-35">
-                <div class="on-product-card">
-                  <div class="on-product-card__image on-l-flex on-align__items--center on-align__content--justifycenter">
-                    <a href="coming-soon.html"><img src="images/plant-item4.jpg" alt="Product 1"></a>
-                  </div>
-                  <div class="on-product-card__details on-f-f--body">
-                    <h3 class="on-product-card__name on-l-mt-1-5">Money Plant</h3>
-                    <p class="on-product-card__price on-l-py-1">$10.99</p>
-                  </div>
-                </div>
-            </div>
+            <legend class="on-f-f--heading on-hs-large on-hw-medium">Forms design</legend>
+            <form action="coming-soon.html" class="contact-us__form-content">
+              <label for="fname" class="on-f-f--body on-fs-regular on-fw-bold on-letter-spacing-1">Name</label>
+              <input class="on-contact-us__input" type="text" id="fname" name="firstname" placeholder="Full name...">
+        
+              <label for="email" class="on-f-f--body on-fs-regular on-fw-bold on-letter-spacing-1">Email</label>
+              <input class="on-contact-us__input" type="email" id="email" name="email" placeholder="Email address...">
+        
+              <label for="country" class="on-f-f--body on-fs-regular on-fw-bold on-letter-spacing-1">Country</label>
+              <select class="on-contact-us__select" id="country" name="country">
+                <option value="" disabled selected>Select your option</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+              <label for="message" class="on-f-f--body on-fs-regular on-fw-bold on-letter-spacing-1">Message</label>
+              <textarea placeholder="Type your message.." id="message" class="on-contact-us__textarea"></textarea>
+              <input class="on-contact-us__submit" type="submit" value="Contact Us Today">
+            </form>
           </fieldset>
           <fieldset>
             <legend class="on-f-f--heading on-hs-large on-hw-medium">HTML</legend>
             <pre>
-              &lt;div class="on-product-container on-l-flex on-l-flex-column on-l-justify-around on-l-flex-wrap on-l-mt-1-35"&gt;
-                  &lt;div class="on-product-card"&gt;
-                      &lt;div class="on-product-card__image on-l-flex on-align__items--center on-align__content--justifycenter"&gt;
-                          &lt;a href="coming-soon.html"&gt;&lt;img src="images/plant-item4.jpg" alt="Product 1"&gt;&lt;/a&gt;
-                      &lt;/div&gt;
-                      &lt;div class="on-product-card__details on-f-f--body"&gt;
-                          &lt;h3 class="on-product-card__name on-l-mt-1-5"&gt;Money Plant&lt;/h3&gt;
-                          &lt;p class="on-product-card__price on-l-py-1"&gt;$10.99&lt;/p&gt;
-                      &lt;/div&gt;
-                  &lt;/div&gt;
-              &lt;/div&gt;
-          </pre>  
+              &lt;form action="coming-soon.html" class="contact-us__form-content"&gt;
+                  &lt;label for="fname" class="on-f-f--body on-fs-regular on-fw-bold on-letter-spacing-1"&gt;Name&lt;/label&gt;
+                  &lt;input class="on-contact-us__input" type="text" id="fname" name="firstname" placeholder="Full name..."&gt;
+          
+                  &lt;label for="email" class="on-f-f--body on-fs-regular on-fw-bold on-letter-spacing-1"&gt;Email&lt;/label&gt;
+                  &lt;input class="on-contact-us__input" type="email" id="email" name="email" placeholder="Email address..."&gt;
+          
+                  &lt;label for="country" class="on-f-f--body on-fs-regular on-fw-bold on-letter-spacing-1"&gt;Country&lt;/label&gt;
+                  &lt;select class="on-contact-us__select" id="country" name="country"&gt;
+                      &lt;option value="" disabled selected&gt;Select your option&lt;/option&gt;
+                      &lt;option value="australia"&gt;Australia&lt;/option&gt;
+                      &lt;option value="canada"&gt;Canada&lt;/option&gt;
+                      &lt;option value="usa"&gt;USA&lt;/option&gt;
+                  &lt;/select&gt;
+                  &lt;label for="message" class="on-f-f--body on-fs-regular on-fw-bold on-letter-spacing-1"&gt;Message&lt;/label&gt;
+                  &lt;textarea placeholder="Type your message.." id="message" class="on-contact-us__textarea"&gt;&lt;/textarea&gt;
+                  &lt;input class="on-contact-us__submit" type="submit" value="Contact Us Today"&gt;
+              &lt;/form&gt;
+          </pre>
+          
           </fieldset>
         </section>
       </div>

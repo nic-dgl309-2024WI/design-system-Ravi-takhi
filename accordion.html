@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="design-system.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="design-system.js"></script>
+    <script src="https://kit.fontawesome.com/836a943e18.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Top Navbar -->
+      <nav class="on-nav on-nav--top on-f-f--body on-fs-regular on-fw-bold on-bg-primary on-container-maxwidth">
+        <div class="on-l-flex on-l-justify-between on-align__items--center on-container">
+          <a class="on-nav__link on-nav__item--active on-l-mx-1-25" href="index.html"><img src="images/logo.png" width="100px"></a>
+          <ul class="on-nav__list">
+            <li class="on-l-mx-1-5"><a class="on-nav__link" href="about-me.html">About me</a></li>
+            <li class="on-l-mx-1-5"><a class="on-nav__link" href="index.html">Demo site</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Mobile Navbar -->
+      <nav class="on-nav on-nav--mobile on-f-f--body on-fs-regular on-fw-bold on-bg-secondary on-l-flex on-align__items--center on-l-justify-between">
+        <a class="on-nav__link on-nav__item--active" href="index.html"><img src="images/logo.png" width="70px"></a>
+        <ul class="on-nav__list">
+            <li>
+              <span id="sidebarShow" onclick="toggleNavbar(true)">
+                <i class="fa fa-bars"></i>
+              </span>
+              <span id="sidebarHide" onclick="toggleNavbar(false)">
+                <i class="fa fa-close"></i>
+              </span>
+            </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main content area-->
+    <main>
+      <div class="on-content-layout on-container">
+        <!-- Side Navbar -->
+        <nav class="on-nav on-nav--side on-f-f--body on-fs-medium" id="side-navbar">
+          <ul class="on-nav__list">
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Branding</a>
+            </li>
+            <ul class="on-nav__list">
+              <li class="on-nav__item on-nav__item--active"><a class="on-nav__link" href="colours.html">01 Colours</a></li>
+              <li><a class="on-nav__link" href="typography.html">02 Typography</a></li>
+              <li><a class="on-nav__link" href="#">03 Logo</a></li>
+            </ul>
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Utilities</a>
+            </li>
+            <ul class="on-nav__list">
+              <li><a class="on-nav__link" href="spacing.html">04 Spacing</a></li>
+              <li><a class="on-nav__link" href="containers.html">05 Containers</a></li>
+              <li><a class="on-nav__link" href="#">06 Images</a></li>
+              <li><a class="on-nav__link" href="#">07 Interactive</a></li>
+              <li><a class="on-nav__link" href="#">08 Feedback</a></li>
+            </ul>
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Navigation</a>
+            </li>
+            <ul class="on-nav__list">
+              <li><a class="on-nav__link" href="#">09 Navbars</a></li>
+              <li><a class="on-nav__link" href="#">10 Breadcrumbs</a></li>
+              <li><a class="on-nav__link" href="#">11 Pagination</a></li>
+            </ul>
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Blocks</a>
+            </li>
+            <ul class="on-nav__list">
+              <li><a class="on-nav__link" href="#">12 Hero</a></li>
+              <li><a class="on-nav__link" href="#">13 Carousel</a></li>
+              <li><a class="on-nav__link" href="#">14 Slats</a></li>
+              <li><a class="on-nav__link" href="#">15 Footer</a></li>
+            </ul>
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Components</a>
+            </li>
+            <ul class="on-nav__list">
+              <li><a class="on-nav__link" href="#">16 Cards</a></li>
+              <li><a class="on-nav__link" href="#">17 Forms</a></li>
+              <li><a class="on-nav__link" href="#">18 Accordion</a></li>
+              <li><a class="on-nav__link" href="#">19 Lists</a></li>
+            </ul>
+          </ul>
+        </nav>
+        <section class="on-container">
+          <h1 class="on-f-f--heading on-hs-xl on-l-my-1-5" >Accordion</h1>
+          <fieldset>
+            <legend class="on-f-f--heading on-hs-large on-hw-medium">Accordion design</legend>
+            <section class="on-l-flex on-l-flex-column on-align__items--center on-align__content--justifycenter on-l-flex-wrap on-l-mb-1-50">
+              <button class="on-faqs__item on-l-p-1-5 on-f-f--heading on-hs-medium on-hw-medium on-text__left on-l-mt-1-35">Before planting</button>
+              <div class="on-faqs__content">
+                <ul class="on-f-f--body on-fs-regular on-line-height-body-2 on-l-ml-1-35">
+                  <li>Make sure your Trees & Shrubs are well watered before planting.</li>
+                  <li>Place your new purchases in afternoon shade if you're unable to plant them right away during summer.</li>
+                  <li>Never plant during the heat of the day, wait until evening.</li>
+                  <li>Make sure you have the right location for your plant to thrive, check soil and exposure requirements.</li>
+                  <li>Most plants don't do well in poor draining soil.</li>
+                  <li>If you're unsure dig a test hole, fill it with water and see how quickly it drains.</li>
+                </ul>
+              </div>
+            </section>
+          </fieldset>
+          <fieldset>
+            <legend class="on-f-f--heading on-hs-large on-hw-medium">HTML</legend>
+            <pre>
+              &lt;section class="on-l-flex on-l-flex-column on-align__items--center on-align__content--justifycenter on-l-flex-wrap on-l-mb-1-50"&gt;
+                  &lt;button class="on-faqs__item on-l-p-1-5 on-f-f--heading on-hs-medium on-hw-medium on-text__left on-l-mt-1-35"&gt;Before planting&lt;/button&gt;
+                  &lt;div class="on-faqs__content"&gt;
+                      &lt;ul class="on-f-f--body on-fs-regular on-line-height-body-2 on-l-ml-1-35"&gt;
+                          &lt;li&gt;Make sure your Trees &amp; Shrubs are well watered before planting.&lt;/li&gt;
+                          &lt;li&gt;Place your new purchases in afternoon shade if you're unable to plant them right away during summer.&lt;/li&gt;
+                          &lt;li&gt;Never plant during the heat of the day, wait until evening.&lt;/li&gt;
+                          &lt;li&gt;Make sure you have the right location for your plant to thrive, check soil and exposure requirements.&lt;/li&gt;
+                          &lt;li&gt;Most plants don't do well in poor draining soil.&lt;/li&gt;
+                          &lt;li&gt;If you're unsure dig a test hole, fill it with water and see how quickly it drains.&lt;/li&gt;
+                      &lt;/ul&gt;
+                  &lt;/div&gt;
+              &lt;/section&gt;
+          </pre>                  
+          </fieldset>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

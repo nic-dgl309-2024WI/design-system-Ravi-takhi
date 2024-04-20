@@ -530,6 +530,14 @@ ol {
   padding-right: var(--spacing-1-50);
   padding-left: var(--spacing-1-50);
 }
+.on-l-pt-1-35
+{
+  padding-top: var(--spacing-1-35);
+}
+.on-l-pt-1-50
+{
+  padding-top: var(--spacing-1-50);
+}
 
 /* Flex Layout Classes */
 
@@ -714,6 +722,12 @@ ol {
   max-width: 100%; /* No max-width on mobile */
 }
 
+.on-list__no-style {
+  list-style: none; /* list style none */
+}
+.on-no__underline {
+  text-decoration: none;
+}
 .on-border
 {
   border: solid;

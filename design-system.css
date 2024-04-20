@@ -382,39 +382,8 @@
   border-radius: 4px;
 }
 
-
-/* footer */
 /* ==>  Footer Style <== */
-
-footer {
-  border-color: black;
-  background-color: var(--secondary-bg-color);
-  padding: 0 20px;
-  padding-top: 50px;
-}
-.footer-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-address > div {  /* using this code to target the all div childs that come under footer address I have the pseudo code, because I did not want to use extra classes or id's to control the tags */
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-}
-.footer-menu ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-.footer-menu div:nth-child(1), /* using this code to get the 1st and 2nd child of div */
-.footer-menu div:nth-child(2) {
-  display: none;
-}
-
-.inputfield-signup {
-  font-size: 1.6rem;
+.on-inputfield-signup {
   margin-top: 20px;
   padding: 10px 0;
   width: 100%;
@@ -424,51 +393,29 @@ footer {
   border-right: none;
   outline: none;
 }
-.signup-button {
-  display: flex;
+.on-signup-button {
   border: 1px solid var(--accent-color);
   background: var(--secondary-text-color);
-  font-size: 1.8rem;
-  color: white;
+  color: var(--primary-bg-color);
   margin: 20px 0;
   padding: 10px 50px;
   width: 50%;
   cursor: pointer;
-  justify-content: center;
 }
-.signup-button:hover
-{
-  color: #c98c50;
-  background-color: white;
-  
-}
-.footer-disclaimer {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.footer-media-icons
+
+.on-footer-media-icons
 {
   display: flex;
   gap: 10px;
 }
-.footer-media-icons i
+.on-footer-media-icons i
 {
-  background-color: var(--accent-color);
+  background-color: var(--primary-bg-color);
   padding: 10px 15px;
 }
-.footer-disclaimer a
+.on-footer__service
 {
-  color: var(--secondary-text-color);
-  text-decoration: underline;
-}
-.footer-disclaimer p 
-{
-  font-size: 1rem;
-}
-footer a {
-  text-decoration: none;
-  color: var(--clr-primary);
+  display: none;
 }
 
 /* -- coming soon -- */
@@ -589,34 +536,10 @@ pre {
     flex: 1;
   }
   /* ==>  Footer Style desktop <== */
-  .footer-container {
-    padding: 0;
+  .on-footer__service
+  {
+    display: block;
   }
-  .footer-address-container {
-    margin-right: 20px;
-    padding-right: 20px;
-  }
-  .footer-menu div:nth-child(1),
-  .footer-menu div:nth-child(2) {
-    display: flex;
-  }
-  .footer-menu {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-  }
-  .footer-menu-list {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer-menu-list li {
-    line-height: 30px;
-  }
-  .footer-disclaimer {
-    padding: 0;
-    text-align: left;
-  }
-
   /* Snippet */
   pre {
     max-width: 100%;

@@ -461,8 +461,6 @@ ol {
   margin-left: var(--spacing-1-100);
 }
 
-/* */
-
 /* Padding */
 
 /* Apply padding to all four sides */
@@ -631,15 +629,16 @@ ol {
 }
 
 /* Align center classes */
-.on-align__items--center
+
+.on-align__items-center
 {
   align-items: center;
 }
-.on-align__content--justifycenter
+.on-align__content-justifycenter
 {
   justify-content: center;
 }
-.on-align__self--center
+.on-align__self-center
 {
   align-self: center;
 }

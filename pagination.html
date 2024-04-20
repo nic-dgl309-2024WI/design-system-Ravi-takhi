@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="design-system.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="design-system.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Top Navbar -->
+      <nav class="on-nav on-nav--top on-f-f--body on-fs-regular on-fw-bold on-bg-primary on-container-maxwidth">
+        <div class="on-l-flex on-l-justify-between on-align__items--center on-container">
+          <a class="on-nav__link on-nav__item--active on-l-mx-1-25" href="index.html"><img src="images/logo.png" width="100px"></a>
+          <ul class="on-nav__list">
+            <li class="on-l-mx-1-5"><a class="on-nav__link" href="about-me.html">About me</a></li>
+            <li class="on-l-mx-1-5"><a class="on-nav__link" href="index.html">Demo site</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Mobile Navbar -->
+      <nav class="on-nav on-nav--mobile on-f-f--body on-fs-regular on-fw-bold on-bg-secondary on-l-flex on-align__items--center on-l-justify-between">
+        <a class="on-nav__link on-nav__item--active" href="index.html"><img src="images/logo.png" width="70px"></a>
+        <ul class="on-nav__list">
+            <li>
+              <span id="sidebarShow" onclick="toggleNavbar(true)">
+                <i class="fa fa-bars"></i>
+              </span>
+              <span id="sidebarHide" onclick="toggleNavbar(false)">
+                <i class="fa fa-close"></i>
+              </span>
+            </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main content area-->
+    <main>
+      <div class="on-content-layout on-container">
+        <!-- Side Navbar -->
+        <nav class="on-nav on-nav--side on-f-f--body on-fs-medium" id="side-navbar">
+          <ul class="on-nav__list">
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Branding</a>
+            </li>
+            <ul class="on-nav__list">
+              <li class="on-nav__item on-nav__item--active"><a class="on-nav__link" href="colours.html">01 Colours</a></li>
+              <li><a class="on-nav__link" href="typography.html">02 Typography</a></li>
+              <li><a class="on-nav__link" href="#">03 Logo</a></li>
+            </ul>
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Utilities</a>
+            </li>
+            <ul class="on-nav__list">
+              <li><a class="on-nav__link" href="spacing.html">04 Spacing</a></li>
+              <li><a class="on-nav__link" href="containers.html">05 Containers</a></li>
+              <li><a class="on-nav__link" href="#">06 Images</a></li>
+              <li><a class="on-nav__link" href="#">07 Interactive</a></li>
+              <li><a class="on-nav__link" href="#">08 Feedback</a></li>
+            </ul>
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Navigation</a>
+            </li>
+            <ul class="on-nav__list">
+              <li><a class="on-nav__link" href="#">09 Navbars</a></li>
+              <li><a class="on-nav__link" href="#">10 Breadcrumbs</a></li>
+              <li><a class="on-nav__link" href="#">11 Pagination</a></li>
+            </ul>
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Blocks</a>
+            </li>
+            <ul class="on-nav__list">
+              <li><a class="on-nav__link" href="#">12 Hero</a></li>
+              <li><a class="on-nav__link" href="#">13 Carousel</a></li>
+              <li><a class="on-nav__link" href="#">14 Slats</a></li>
+              <li><a class="on-nav__link" href="#">15 Footer</a></li>
+            </ul>
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Components</a>
+            </li>
+            <ul class="on-nav__list">
+              <li><a class="on-nav__link" href="#">16 Cards</a></li>
+              <li><a class="on-nav__link" href="#">17 Forms</a></li>
+              <li><a class="on-nav__link" href="#">18 Accordion</a></li>
+              <li><a class="on-nav__link" href="#">19 Lists</a></li>
+            </ul>
+          </ul>
+        </nav>
+        <section class="on-container">
+          <h1 class="on-f-f--heading on-hs-xl on-l-my-1-5" >Pagination</h1>
+          <fieldset>
+            <legend class="on-f-f--heading on-hs-large on-hw-medium">Pagination design</legend>
+            <div class="on-l-flex on-l-justify-between on-l-mt-1-35">
+              <div class="on-product-category">
+                <div class="on-product-category__image">
+                 <a href="coming-soon.html"><img src="images/plant-cat1.jpg" alt="Category 1"></a> 
+                </div>
+                <div>
+                  <h3 class="on-f-f--body on-l-mt-1-5">Ficus Plants</h3>
+                </div>
+              </div>
+              <div class="on-product-category">
+                <div class="on-product-category__image">
+                  <a href="coming-soon.html"><img src="images/plant-cat2.jpg" alt="Category 2"></a>
+                </div>
+                <div>
+                  <h3 class="on-f-f--body on-l-mt-1-5">Cane Plants</h3>
+                </div>
+              </div>
+              <div class="on-product-category">
+                <div class="on-product-category__image">
+                  <a href="coming-soon.html"><img src="images/plant-cat3.jpg" alt="Category 3"></a>
+                </div>
+                <div>
+                <h3 class="on-f-f--body on-l-mt-1-5">Indoor Plants</h3>
+                </div>
+              </div>
+              <div class="on-product-category">
+                <div class="on-product-category__image">
+                  <a href="coming-soon.html"><img src="images/plant-cat3.jpg" alt="Category 4"></a>
+                </div>
+                <div>
+                  <h3 class="on-f-f--body on-l-mt-1-5">Indoor Plants</h3>
+                </div>
+              </div>
+              <div class="on-product-category">
+                <div class="on-product-category__image">
+                  <a href="coming-soon.html"><img src="images/plant-cat1.jpg" alt="Category 5"></a>
+                </div>
+                <div>
+                  <h3 class="on-f-f--body on-l-mt-1-5">Ficus Plants</h3>
+                </div>
+              </div>
+              <div class="on-product-category">
+                <div class="on-product-category__image">
+                  <a href="coming-soon.html"><img src="images/plant-cat2.jpg" alt="Category 6"></a>
+                </div>
+                <div>
+                  <h3 class="on-f-f--body on-l-mt-1-5">Cane Plants</h3>
+                </div>
+              </div>
+              <div class="on-product-category">
+                <div class="on-product-category__image">
+                  <a href="coming-soon.html"><img src="images/plant-cat2.jpg" alt="Category 7"></a>
+                </div>
+                <div>
+                  <h3 class="on-f-f--body on-l-mt-1-5">Cane Plants</h3>
+                </div>
+              </div>
+            </div>
+            <div class="on-text__center on-l-mt-1-5">
+              <button class="on-pagination__button">1</button>
+              <button class="on-pagination__button">2</button>
+              <button class="on-pagination__button">3</button>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend class="on-f-f--heading on-hs-large on-hw-medium">HTML</legend>
+            <pre >
+              &lt;section class="on-container"&gt;
+                &lt;h2 class="on-f-f--heading on-hs-xl on-l-mt-1-50"&gt;Browse Our Botanical Treasures&lt;/h2&gt;
+                &lt;div class="on-l-flex on-l-justify-between on-l-mt-1-35"&gt;
+                  &lt;div class="on-product-category"&gt;
+                    &lt;div class="on-product-category__image"&gt;
+                      &lt;a href="coming-soon.html"&gt;&lt;img src="images/plant-cat1.jpg" alt="Category 1"&gt;&lt;/a&gt; 
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                      &lt;h3 class="on-f-f--body on-l-mt-1-5"&gt;Ficus Plants&lt;/h3&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class="on-product-category"&gt;
+                    &lt;div class="on-product-category__image"&gt;
+                      &lt;a href="coming-soon.html"&gt;&lt;img src="images/plant-cat2.jpg" alt="Category 2"&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                      &lt;h3 class="on-f-f--body on-l-mt-1-5"&gt;Cane Plants&lt;/h3&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class="on-product-category"&gt;
+                    &lt;div class="on-product-category__image"&gt;
+                      &lt;a href="coming-soon.html"&gt;&lt;img src="images/plant-cat3.jpg" alt="Category 3"&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                      &lt;h3 class="on-f-f--body on-l-mt-1-5"&gt;Indoor Plants&lt;/h3&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class="on-product-category"&gt;
+                    &lt;div class="on-product-category__image"&gt;
+                      &lt;a href="coming-soon.html"&gt;&lt;img src="images/plant-cat3.jpg" alt="Category 4"&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                      &lt;h3 class="on-f-f--body on-l-mt-1-5"&gt;Indoor Plants&lt;/h3&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class="on-product-category"&gt;
+                    &lt;div class="on-product-category__image"&gt;
+                      &lt;a href="coming-soon.html"&gt;&lt;img src="images/plant-cat1.jpg" alt="Category 5"&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                      &lt;h3 class="on-f-f--body on-l-mt-1-5"&gt;Ficus Plants&lt;/h3&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class="on-product-category"&gt;
+                    &lt;div class="on-product-category__image"&gt;
+                      &lt;a href="coming-soon.html"&gt;&lt;img src="images/plant-cat2.jpg" alt="Category 6"&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                      &lt;h3 class="on-f-f--body on-l-mt-1-5"&gt;Cane Plants&lt;/h3&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class="on-product-category"&gt;
+                    &lt;div class="on-product-category__image"&gt;
+                      &lt;a href="coming-soon.html"&gt;&lt;img src="images/plant-cat2.jpg" alt="Category 7"&gt;&lt;/a&gt;
+                    &lt;/div&gt;
+                    &lt;div&gt;
+                      &lt;h3 class="on-f-f--body on-l-mt-1-5"&gt;Cane Plants&lt;/h3&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="on-text__center on-l-mt-1-5"&gt;
+                  &lt;button class="on-pagination__button"&gt;1&lt;/button&gt;
+                  &lt;button class="on-pagination__button"&gt;2&lt;/button&gt;
+                  &lt;button class="on-pagination__button"&gt;3&lt;/button&gt;
+                &lt;/div&gt;
+              &lt;/section&gt;
+            </pre>            
+          </fieldset>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

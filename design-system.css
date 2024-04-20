@@ -482,6 +482,18 @@ footer a {
 /*  ===>> Spacing Styles END <<=== */
 
 
+/* Snippet code */
+pre {
+  background-color: var(--primary-bg-color);
+  padding: 20px;
+  border: 1px solid var(--accent-color);
+  overflow-x: auto;
+  max-width: 100%;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+
 /*  ===>> Media query for DESKTOP <<=== */
 @media (min-width: 768px) {
 
@@ -593,5 +605,10 @@ footer a {
     padding: 0;
     text-align: left;
   }
+
+  /* Snippet */
+  pre {
+    max-width: 100%;
+}
   
 }

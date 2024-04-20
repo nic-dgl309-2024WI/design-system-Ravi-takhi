@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="design-system.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="design-system.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Top Navbar -->
+      <nav class="on-nav on-nav--top on-f-f--body on-fs-regular on-fw-bold on-bg-primary on-container-maxwidth">
+        <div class="on-l-flex on-l-justify-between on-align__items-center on-container">
+          <a class="on-nav__link on-nav__item--active on-l-mx-1-25" href="design-system.html"><img src="images/logo.png" width="100px"></a>
+          <ul class="on-nav__list">
+            <li class="on-l-mx-1-5"><a class="on-nav__link" href="about-me.html">About me</a></li>
+            <li class="on-l-mx-1-5"><a class="on-nav__link" href="index.html">Demo site</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Mobile Navbar -->
+      <nav class="on-nav on-nav--mobile on-f-f--body on-fs-regular on-fw-bold on-bg-secondary on-l-flex on-align__items-center on-l-justify-between">
+        <a class="on-nav__link on-nav__item--active" href="design-system.html"><img src="images/logo.png" width="70px"></a>
+        <ul class="on-nav__list">
+            <li>
+              <span id="sidebarShow" onclick="toggleNavbar(true)">
+                <i class="fa fa-bars"></i>
+              </span>
+              <span id="sidebarHide" onclick="toggleNavbar(false)">
+                <i class="fa fa-close"></i>
+              </span>
+            </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main content area-->
+    <main>
+      <div class="on-content-layout on-container">
+        <!-- Side Navbar -->
+        <nav class="on-nav on-nav--side on-f-f--body on-fs-medium" id="side-navbar">
+          <ul class="on-nav__list">
+            <ul id="about-me-list">
+              <li><a class="on-nav__link" href="about-me.html">About Me</a></li>
+              <li><a class="on-nav__link" href="#">Demo Site</a></li>
+            </ul>
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Branding</a>
+            </li>
+            <ul class="on-nav__list">
+              <li><a class="on-nav__link" href="colours.html">01 Colours</a></li>
+              <li><a class="on-nav__link" href="typography.html">02 Typography</a></li>
+              <li><a class="on-nav__link" href="#">03 Logo</a></li>
+            </ul>
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Utilities</a>
+            </li>
+            <ul class="on-nav__list">
+              <li><a class="on-nav__link" href="spacing.html">04 Spacing</a></li>
+              <li><a class="on-nav__link" href="containers.html">05 Containers</a></li>
+              <li><a class="on-nav__link" href="#">06 Images</a></li>
+              <li><a class="on-nav__link" href="#">07 Interactive</a></li>
+              <li><a class="on-nav__link" href="#">08 Feedback</a></li>
+            </ul>
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Navigation</a>
+            </li>
+            <ul class="on-nav__list">
+              <li><a class="on-nav__link" href="#">09 Navbars</a></li>
+              <li><a class="on-nav__link" href="#">10 Breadcrumbs</a></li>
+              <li><a class="on-nav__link" href="pagination.html">11 Pagination</a></li>
+            </ul>
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Blocks</a>
+            </li>
+            <ul class="on-nav__list">
+              <li><a class="on-nav__link on-nav__item--active" href="hero.html">12 Hero</a></li>
+              <li><a class="on-nav__link" href="carousel.html">13 Carousel</a></li>
+              <li><a class="on-nav__link" href="#">14 Slats</a></li>
+              <li><a class="on-nav__link" href="#">15 Footer</a></li>
+            </ul>
+            <li>
+              <a class="on-nav__link on-f-f--heading on-hs-large on-hw-medium" href="#">Components</a>
+            </li>
+            <ul class="on-nav__list">
+              <li><a class="on-nav__link" href="cards.html">16 Cards</a></li>
+              <li><a class="on-nav__link" href="forms.html">17 Forms</a></li>
+              <li><a class="on-nav__link" href="accordion.html">18 Accordion</a></li>
+              <li><a class="on-nav__link" href="lists.html">19 Lists</a></li>
+            </ul>
+          </ul>
+        </nav>
+        <section class="on-container">
+          <h1 class="on-f-f--heading on-hs-xl on-l-my-1-5" >Footer</h1>
+          <fieldset>
+            <legend class="on-f-f--heading on-hs-large on-hw-medium">Footer design</legend>
+            <footer class="on-container-maxwidth on-bg-secondary">
+              <div class="on-l-flex on-container on-l-gap-2 on-l-pt-1-35 on-l-justify-between">
+                <div class="on-l-flex on-l-flex-column on-l-gap ">
+                  <img src="images/logo.png" width="100px">
+                </div>
+                <div class="on-footer__service">
+                  <h3 class="on-f-f--heading on-hs-small">Menu</h3>
+                  <ul class="on-f-f--body on-line-height-body-3 on-list__no-style">
+                    <li><a class="on-no__underline on-text-primary" href="coming-soon.html">Products</a></li>
+                    <li> <a class="on-no__underline on-text-primary" href="coming-soon.html">Gifts</a></li>
+                    <li><a class="on-no__underline on-text-primary" href="coming-soon.html">Testimonials</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                  </ul>
+                </div>
+                <div class="on-footer__service">
+                  <h3 class="on-f-f--heading on-hs-small">Service</h3>
+                  <ul class="on-f-f--body on-fs-regular on-line-height-body-3 on-list__no-style">
+                    <li><a class="on-no__underline on-text-primary" href="coming-soon.html">Our team</a></li>
+                    <li><a class="on-no__underline on-text-primary" href="coming-soon.html">Photo Gallary</a></li>
+                    <li><a class="on-no__underline on-text-primary" href="coming-soon.html">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 class="on-f-f--heading on-hs-small">Newsletter</h3>
+                  <ul class="on-f-f--body on-line-height-body-3 on-list__no-style">
+                    <li class="on-f-f--heading">
+                      Join Our Green Community for Insider Tips and Special Offers
+                    </li>
+                    <li>
+                      <form action="coming-soon.html" method="POST">
+                        <input class="on-inputfield-signup on-f-f--heading on-hs-small" type="text" required placeholder="  Enter your Email" name="signup" id="signup">
+                        <input class="on-signup-button on-f-f--heading on-hs-medium on-l-flex on-align__content-justifycenter" type="submit" name="SignUp" value="SignUp">
+                      </form>
+                    </li>
+                    <li class="on-footer-media-icons">
+                      <a href="https://www.facebook.com/people/Outback-Nursery-Garden-Centre/100045470087619/">
+                        <i class="fa fa-facebook fa-1x" aria-hidden="true"></i>
+                      </a>
+                      <a href="https://www.facebook.com/people/Outback-Nursery-Garden-Centre/100045470087619/">
+                        <i class="fa fa-instagram fa-1x" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </footer>
+          </fieldset>
+          <fieldset>
+            <legend class="on-f-f--heading on-hs-large on-hw-medium">HTML</legend>
+            <pre>
+              &lt;footer class="on-container-maxwidth on-bg-secondary"&gt;
+                &lt;div class="on-l-flex on-container on-l-gap-2 on-l-pt-1-35 on-l-justify-between"&gt;
+                  &lt;div class="on-l-flex on-l-flex-column on-l-gap "&gt;
+                    &lt;img src="images/logo.png" width="100px"&gt;
+                  &lt;/div&gt;
+                  &lt;div class="on-footer__service"&gt;
+                    &lt;h3 class="on-f-f--heading on-hs-small"&gt;Menu&lt;/h3&gt;
+                    &lt;ul class="on-f-f--body on-line-height-body-3 on-list__no-style"&gt;
+                      &lt;li&gt;&lt;a class="on-no__underline on-text-primary" href="coming-soon.html"&gt;Products&lt;/a&gt;&lt;/li&gt;
+                      &lt;li&gt; &lt;a class="on-no__underline on-text-primary" href="coming-soon.html"&gt;Gifts&lt;/a&gt;&lt;/li&gt;
+                      &lt;li&gt;&lt;a class="on-no__underline on-text-primary" href="coming-soon.html"&gt;Testimonials&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+                    &lt;/ul&gt;
+                  &lt;/div&gt;
+                  &lt;div class="on-footer__service"&gt;
+                    &lt;h3 class="on-f-f--heading on-hs-small"&gt;Service&lt;/h3&gt;
+                    &lt;ul class="on-f-f--body on-fs-regular on-line-height-body-3 on-list__no-style"&gt;
+                      &lt;li&gt;&lt;a class="on-no__underline on-text-primary" href="coming-soon.html"&gt;Our team&lt;/a&gt;&lt;/li&gt;
+                      &lt;li&gt;&lt;a class="on-no__underline on-text-primary" href="coming-soon.html"&gt;Photo Gallary&lt;/a&gt;&lt;/li&gt;
+                      &lt;li&gt;&lt;a class="on-no__underline on-text-primary" href="coming-soon.html"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                  &lt;/div&gt;
+                  &lt;div&gt;
+                    &lt;h3 class="on-f-f--heading on-hs-small"&gt;Newsletter&lt;/h3&gt;
+                    &lt;ul class="on-f-f--body on-line-height-body-3 on-list__no-style"&gt;
+                      &lt;li class="on-f-f--heading"&gt;
+                        Join Our Green Community for Insider Tips and Special Offers
+                      &lt;/li&gt;
+                      &lt;li&gt;
+                        &lt;form action="coming-soon.html" method="POST"&gt;
+                          &lt;input class="on-inputfield-signup on-f-f--heading on-hs-small" type="text" required placeholder="  Enter your Email" name="signup" id="signup"&gt;
+                          &lt;input class="on-signup-button on-f-f--heading on-hs-medium on-l-flex on-align__content-justifycenter" type="submit" name="SignUp" value="SignUp"&gt;
+                        &lt;/form&gt;
+                      &lt;/li&gt;
+                      &lt;li class="on-footer-media-icons"&gt;
+                        &lt;a href="https://www.facebook.com/people/Outback-Nursery-Garden-Centre/100045470087619/"&gt;
+                          &lt;i class="fa fa-facebook fa-1x" aria-hidden="true"&gt;&lt;/i&gt;
+                        &lt;/a&gt;
+                        &lt;a href="https://www.facebook.com/people/Outback-Nursery-Garden-Centre/100045470087619/"&gt;
+                          &lt;i class="fa fa-instagram fa-1x" aria-hidden="true"&gt;&lt;/i&gt;
+                        &lt;/a&gt;
+                      &lt;/li&gt;
+                    &lt;/ul&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/footer&gt;
+              </pre>          
+          </fieldset>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

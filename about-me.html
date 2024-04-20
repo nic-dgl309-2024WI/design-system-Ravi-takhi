@@ -14,16 +14,18 @@
   <body>
     <header>
       <!-- Top Navbar -->
-      <nav class="on-nav on-nav--top on-f-f--body on-fs-regular on-fw-bold on-container on-bg-primary on-align__items--center">
-        <a class="on-nav__link on-nav__item--active on-l-mx-1-25" href="index.html">Design System</a>
-        <ul class="on-nav__list">
-          <li class="on-l-mx-1-25"><a class="on-nav__link" href="about-me.html">About Me</a></li>
-          <li class="on-l-mx-1-25"><a class="on-nav__link" href="#">Demo Site</a></li>
-        </ul>
+      <nav class="on-nav on-nav--top on-f-f--body on-fs-regular on-fw-bold on-bg-primary on-container-maxwidth">
+        <div class="on-l-flex on-l-justify-between on-align__items--center on-container">
+          <a class="on-nav__link on-nav__item--active on-l-mx-1-25" href="design-system.html"><img src="images/logo.png" width="100px"></a>
+          <ul class="on-nav__list">
+            <li class="on-l-mx-1-5"><a class="on-nav__link" href="about-me.html">About me</a></li>
+            <li class="on-l-mx-1-5"><a class="on-nav__link" href="index.html">Demo site</a></li>
+          </ul>
+        </div>
       </nav>
       <!-- Mobile Navbar -->
-      <nav class="on-nav on-nav--mobile on-f-f--body on-fs-regular on-fw-bold on-bg-primary on-align__items--center">
-        <a class="on-nav__link on-nav__item--active" href="index.html">Design System</a>
+      <nav class="on-nav on-nav--mobile on-f-f--body on-fs-regular on-fw-bold on-bg-secondary on-l-flex on-align__items--center on-l-justify-between">
+        <a class="on-nav__link on-nav__item--active" href="design-system.html"><img src="images/logo.png" width="70px"></a>
         <ul class="on-nav__list">
             <li>
               <span id="sidebarShow" onclick="toggleNavbar(true)">
@@ -41,7 +43,7 @@
         
           <div style="text-align: center;">
             <!-- add your name -->
-          <h1 class="on-f-f--heading on-hs-xl on-hw-large">Hi! My name is Ravinder Singh.</h1>
+          <h1 class="on-f-f--heading on-hs-xl on-hw-large on-l-mt-1-50">Hi! My name is Ravinder Singh.</h1>
           <h2 class="on-f-f--heading on-hs-large on-hw-medium">I am a web developer.</h2>
           <!-- add your portrait photo -->
           <img

@@ -223,6 +223,12 @@
 
 /*-- gift and certificate */ 
 
+.on-gift-purchase__image
+{
+  display: none;
+}
+
+
 .on-gift-purchase__button
 {
   width: 180px;
@@ -560,6 +566,11 @@ pre {
     width: calc(25% - 20px); /* Adjust as needed */
   }
 
+/* Gift and Cards */
+.on-gift-purchase__image
+{
+  display: flex;
+}
   
   /* ==>  Form Style desktop <== */
   .on-contact-us {
